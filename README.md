@@ -1,36 +1,39 @@
 # gwent-classic-v3.1
-![cover](https://user-images.githubusercontent.com/26311830/116256903-f1599b00-a7b6-11eb-84a1-16dcb5c9bfc6.jpg)
+![cover](https://qivesite.github.io/gwent-rus/images/board.jpg)
 
-A browser remake of the original Gwent minigame from The Witcher 3: Wild Hunt including all cards from the DLC.<br/>Click [here](https://randompianist.github.io/gwent-classic-v3.1/) to play.
+Браузерная версия оригинальной мини-игры «Гвинт» из игры «Ведьмак 3: Дикая Охота», включающая все карты из дополнений.
 
-In addition to cloning the original game, various cards, faction, abilities and features have added to push the game even further.
+<br/>Нажмите [здесь](https://qivesite.github.io/gwent-rus/), чтобы играть.
+<br/> [Оригинальный](https://randompianist.github.io/gwent-classic-v3.1/) репозиторий, с которого делался перевод.
 
-## Improvements:
+В дополнение к клонированию оригинальной игры были добавлены различные карты, фракции, способности и функции, чтобы развить игру еще дальше.
 
-Are listed here only the modifications done in this present fork, more were done before by other developers.
+## Улучшения:
 
-### Adds
+Здесь перечислены только изменения, внесенные в данном форке; ранее другие разработчики сделали еще больше.
 
-- Favicon
-- A statistics table
-- A "Give up" button
-- New visuals for carousel
-- Better styles on warning messages
+### Добавлено
 
-### Corrects
+- Иконка сайта (favicon)
+- Таблица статистики
+- Кнопка «Сдаться»
+- Новый визуальный стиль для карусели
+- Улучшенный стиль предупреждающих сообщений
 
-- Typo errors
-- Unusued code
-- Aesthetic values
-- Bug in leader use
-- Bug when drawing a match
-- Bug when redrawing cards at the start of each match
+### Исправлено
 
-## Operations included with the keyboard:
+- Орфографические ошибки
+- Неиспользуемый код
+- Эстетические значения
+- Ошибка при использовании лидера
+- Ошибка при ничьей в раунде
+- Ошибка при пересдаче карт в начале каждого раунда
 
-**"E"** starts the game<br />
-**"X"** uses or modifies the leader card<br />
-**"Q"** closes the card explanation windows or gives up on the game<br />
-**"Space"** passes the round<br />
-**"Enter"** plays the cards<br />
-**Arrows** select cards on the carousel
+## Управление с клавиатуры:
+
+**«E»** — начать игру<br />
+**«X»** — использовать или изменить карту лидера<br />
+**«Q»** — закрыть окно с описанием карты или сдаться в игре<br />
+**«Пробел»** — пропустить раунд<br />
+**«Enter»** — сыграть выбранные карты<br />
+**Стрелки** — выбрать карты на карусели
