@@ -4027,7 +4027,7 @@ function dimensionar() {
 	var tamanho = document.getElementsByTagName("main")[0].offsetHeight;
 	var diferenca = Math.abs(tamanho - document.body.scrollHeight);
 	if (tamanho.toString() != "NaN") {
-		document.getElementById("deck-customization").style.background = diferenca > 5 ? "linear-gradient(rgb(10, 10, 10) 80%, rgb(0, 0, 0) 100%)" : "rgba(10, 10, 10, .95)";
+		document.getElementById("deck-customization").style.background = diferenca > 5 ? "url('images/menuboard.jpg') no-repeat center/cover" : "url('images/menuboard.jpg') no-repeat center/cover";
 		document.body.style.overflowY = tamanho - document.body.scrollHeight > 20 ? "visible" : "";
 		window.scrollTo(0, 0);
 	}
