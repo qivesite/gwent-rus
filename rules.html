@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang = "en-US">
+<html lang = "ru-RU">
 	<head>
-		<title>Gwent 3.1 - Rules</title>
+		<title>Гвинт 3.1 - Правила</title>
 		<meta charset = "utf-8" />
-		<meta name = "author" content = "Sundaram, Costa & Sylver" />
-		<meta name = "description" content = "Play the original Gwent minigame from The Witcher 3 in your browser! Includes cards from Hearts of Stone and Blood & Wine!" />
-		<meta name = "keywords" content = "arun, sundaram, reynolds, costa, randompianist, sylver, romain, durban, programmer, gwent, tw3, witcher, card, game, gamedev, play" />
+		<meta name = "author" content = "Сандарам, Коста & Сильвер" />
+		<meta name = "description" content = "Играйте в оригинальный Гвинт из Ведьмака 3 в вашем браузере! Включает карты из дополнений «Каменные Сердца» и «Кровь и Вино»!" />
+		<meta name = "keywords" content = "Арун, Сандарам, Рейнольдс, Коста, randompianist, Сильвер, Ромен, Дюрбан, программист, гвинт, ведьмак, карточная игра, игры в браузере" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "icon" type = "image/x-icon" href = "images/favicon.ico" />
 		<link rel = "stylesheet" type = "text/css" href = "css/rules.css" />
@@ -19,823 +19,823 @@
 			</a>
 			<div id = "menu">
 				<div class = "pure-menu">
-					<a class = "pure-menu-heading" href = "#">Gwent 3.1</a>
+					<a class = "pure-menu-heading" href = "#">Гвинт 3.1</a>
 					<ul class = "pure-menu-list">
 						<li class = "pure-menu-item menu-other-page">
-							<a href = "index.html" class = "pure-menu-link">Play Game</a>
+							<a href = "index.html" class = "pure-menu-link">Играть</a>
 						</li>
 						<li class = "pure-menu-item menu-other-page">
-							<a href = "decks.html" class = "pure-menu-link">Decks</a>
+							<a href = "decks.html" class = "pure-menu-link">Колоды</a>
 						</li>
 						<li class = "pure-menu-item">
-							<a href = "#cards" class = "pure-menu-link">Cards</a>
+							<a href = "#cards" class = "pure-menu-link">Карты</a>
 						</li>
 						<li class = "pure-menu-item">
-							<a href = "#abilities" class = "pure-menu-link">Abilities</a>
+							<a href = "#abilities" class = "pure-menu-link">Способности</a>
 						</li>
 						<li class = "pure-menu-item">
-							<a href = "#factions" class = "pure-menu-link">Factions</a>
+							<a href = "#factions" class = "pure-menu-link">Фракции</a>
 						</li>
 						<li class = "pure-menu-item">
-							<a href = "#setup" class = "pure-menu-link">Setup</a>
+							<a href = "#setup" class = "pure-menu-link">Подготовка</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<div id = "main">
 				<div class = "header">
-					<h1>Gwent 3.1</h1>
-					<h2>The Witcher 3 minigame pulled to the browser and pushed further</h2>
+					<h1>Гвинт 3.1</h1>
+					<h2>Мини-игра из Ведьмака 3, перенесенная в браузер и улучшенная</h2>
 				</div>
 				<div class = "content">
-					<h2 class = "content-subhead">What is Gwent?</h2>
+					<h2 class = "content-subhead">Что такое Гвинт?</h2>
 					<p>
-						<b>Gwent</b>
-						<i>(a.k.a Gwynt)</i>
-						used to be a minigame in the video game
-						<b>The Witcher 3</b>
-						developed by CD Project.
+						<b>Гвинт</b>
+						<i>(также известный как Гвинт)</i>
+						был мини-игрой в видеоигре
+						<b>Ведьмак 3</b>
+						, разработанной CD Projekt.
 						<br />
-						It was designed to be a collection card game in which you could play your cards against the computer.
+						Она задумывалась как коллекционная карточная игра, в которой можно было играть картами против компьютера.
 						<br />
-						You would start with a basic starting deck which you could improve in parallel of the game story and quests by buying more cards here and there or by defeating characters in the game.
+						Вы начинали с базовой стартовой колоды, которую могли улучшать параллельно с сюжетом игры и квестами, покупая карты тут и там или побеждая персонажей в игре.
 					</p>
 					<p>
-						It was never designed to be a balanced game. NPCs don't complain, so the idea was to build a deck with all the strongest cards possible to try to always win.
+						Игра никогда не предназначалась для сбалансированной игры. NPC не жалуются, поэтому идея состояла в том, чтобы собрать колоду из всех сильнейших карт и стараться всегда выигрывать.
 						<br />
-						Adapting Gwent to be multiplayer is consequently not an easy task. Furthermore, the game could grow boring because there are obvious optimal decks and optimal ways to play the game.
+						Адаптировать Гвинт для многопользовательской игры, следовательно, непростая задача. Более того, игра может наскучить, потому что существуют очевидные оптимальные колоды и оптимальные способы игры.
 						<br />
-						Players would usually do the same things over and over.
+						Игроки обычно делали одно и то же снова и снова.
 						<br />
-						Fortunately, it does not stop the game from being very interesting and full of potential, which is why we wanted to push it even further, especially with a vast universe like The Witcher.
+						К счастью, это не мешает игре быть очень интересной и полной потенциала, поэтому мы захотели развить ее еще дальше, особенно учитывая такую обширную вселенную, как Ведьмак.
 					</p>
-					<h2 class = "content-subhead">But how does it play?</h2>
+					<h2 class = "content-subhead">Но как в нее играть?</h2>
 					<p>
-						Gwent is played with 2 players. They start with the same number of cards and take turns to play these cards one by one until both players pass or are out of cards.
+						В Гвинт играют два игрока. Они начинают с одинаковым количеством карт и по очереди разыгрывают эти карты одну за другой, пока оба игрока не пасуют или у них не закончатся карты.
 						<br />
-						At the end of each round the strength of each player's cards is summed to calculate their score. The player with the highest score wins the round.
+						В конце каждого раунда сила карт каждого игрока суммируется для подсчета их счета. Игрок с наибольшим счетом выигрывает раунд.
 						<br />
-						<b>First player to win two rounds wins the game.</b>
+						<b>Первый игрок, выигравший два раунда, побеждает в игре.</b>
 					</p>
 					<p>
-						Gwent is sometimes compared to poker because bluff plays an important role.
+						Гвинт иногда сравнивают с покером, потому что блеф играет важную роль.
 						<br />
-						Usually you want to win a round with as few cards as possible but since each player can lose a round, you might want to convince your opponent you are trying to win the round and push him/her to play more of his/her best cards, while saving yours.
+						Обычно вы хотите выиграть раунд с как можно меньшим количеством карт, но поскольку каждый игрок может проиграть раунд, вы можете попытаться убедить противника, что пытаетесь выиграть раунд, и заставить его/ее сыграть больше своих лучших карт, сохраняя свои.
 						<br />
-						Cards are a limited resource in the game, so winning requires to make a better use of them.
+						Карты — ограниченный ресурс в игре, поэтому победа требует более эффективного их использования.
 					</p>
-					<h2 class = "content-subhead">Board layout</h2>
+					<h2 class = "content-subhead">Схема поля</h2>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/rules/board_layout.jpg" alt = "Gwent board layout" />
+							<img class = "pure-img-responsive" src = "images/rules/board_layout.jpg" alt = "Схема поля в Гвинт" />
 						</div>
 						<div class = "pure-u-7-8">
 							<p>
-								In Gwent, the board is a battlefied divided in two parts, the side of each player.
+								В Гвинте поле битвы разделено на две части — сторону каждого игрока.
 								<br />
-								Each side is made of three distinct rows:
+								Каждая сторона состоит из трех различных рядов:
 								<ul>
 									<li>
-										<b>Melee</b> (or Close Combat)
+										<b>Ближний бой</b>
 									</li>
 									<li>
-										<b>Ranged</b>
+										<b>Дальний бой</b>
 									</li>
 									<li>
-										<b>Siege</b>
+										<b>Осадный</b>
 									</li>
 								</ul>
 							</p>
 							<p>
-								Most cards can be played in only one of these rows. Some special cards can affect only one row at a time.
+								Большинство карт можно разыграть только в одном из этих рядов. Некоторые особые карты могут влиять только на один ряд за раз.
 								<br />
-								Concentrating cards in a row or on the contrary spreading them across your side of the battlefield will be important strategic decisions.
+								Концентрация карт в одном ряду или, наоборот, их распределение по вашей стороне поля будут важными стратегическими решениями.
 							</p>
 							<p>
-								This division of the board in three rows and the effects which can apply to them are an important factor in the specificity and elegance of Gwent.
+								Это разделение поля на три ряда и эффекты, которые могут на них применяться, являются важным фактором специфики и элегантности Гвинта.
 								<br />
-								For many players, this is a crucial part missing in the more recent standalone official Gwent game.
+								Для многих игроков это ключевая часть, отсутствующая в более поздней самостоятельной официальной игре Гвинт.
 							</p>
 						</div>
 					</div>
-					<h2 class = "content-subhead" id = "cards">So, what are these cards?</h2>
+					<h2 class = "content-subhead" id = "cards">Итак, что это за карты?</h2>
 					<p>
-						In Gwent, there are 3 major kinds of cards:
+						В Гвинте есть 3 основных типа карт:
 						<ul>
 							<li>
-								<b>Leader cards</b>
+								<b>Карты лидеров</b>
 							</li>
 							<li>
-								<b>Unit cards</b>
+								<b>Карты отрядов</b>
 							</li>
 							<li>
-								<b>Special cards</b>
+								<b>Карты особые</b>
 							</li>
 						</ul>
 					</p>
-					<h3 class = "content-subhead">Leader cards</h3>
+					<h3 class = "content-subhead">Карты лидеров</h3>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/lg/monsters_eredin_commander.jpg" alt = "Example of leader card" />
+							<img class = "pure-img-responsive" src = "images/lg/monsters_eredin_commander.jpg" alt = "Пример карты лидера" />
 						</div>
 						<div class = "pure-u-7-8">
 							<p>
-								Each player has one and only one leader card, which is chosen before the start of the game. It is not part of the deck.
+								У каждого игрока есть одна и только одна карта лидера, которая выбирается до начала игры. Она не является частью колоды.
 								<br />
-								This card is not played on the battlefield, it remains face up on the side until the end.
+								Эта карта не выкладывается на поле боя, она остается лежать рубашкой вверх в стороне до конца игры.
 								<br />
-								It does not have a strength value but it has a strong ability which can affect the board and cards.
+								У нее нет значения силы, но есть сильная способность, которая может влиять на поле и карты.
 							</p>
 						</div>
 					</div>
-					<h3 class = "content-subhead">Unit cards</h3>
+					<h3 class = "content-subhead">Карты отрядов</h3>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/lg/neutral_olgierd.jpg" alt = "Example of unit card" />
-							<img class = "pure-img-responsive" src = "images/lg/neutral_ciri.jpg" alt = "Example of hero card" />
+							<img class = "pure-img-responsive" src = "images/lg/neutral_olgierd.jpg" alt = "Пример карты отряда" />
+							<img class = "pure-img-responsive" src = "images/lg/neutral_ciri.jpg" alt = "Пример карты героя" />
 						</div>
 						<div class = "pure-u-7-8">
 							<p>
-								This is the main category of cards, these are the ones with a strength value and which allow to increase the player's score in the round.
+								Это основная категория карт. Это те, у которых есть значение силы и которые позволяют увеличить счет игрока в раунде.
 								<br />
-								Some units have an ability (some even have two), allowing them to affect the board or combine with other cards in order to further increase (or decrease) the scores of players.
+								Некоторые отряды обладают способностью (некоторые даже двумя), позволяющей им влиять на поле или взаимодействовать с другими картами, чтобы еще больше увеличить (или уменьшить) счет игроков.
 								<br />
-								These abilities allow to increase the strength of some of your units, summon more cards or remove some other cards from the boad.
+								Эти способности позволяют увеличить силу некоторых ваших отрядов, призвать больше карт или удалить некоторые другие карты с поля.
 								<br />
-								Unit abilities is most likely the most important part of the game because it is what brings variety and unpredictability, forcing players to read the opponent strategy and style and react to it approprietly.
+								Способности отрядов, скорее всего, самая важная часть игры, потому что именно они привносят разнообразие и непредсказуемость, заставляя игроков читать стратегию и стиль противника и соответствующим образом реагировать.
 								<br />
 							</p>
 							<p>
-								A small portion of these units are
-								<b>Hero</b>
-								units, their visual is slightly different than the others. Hero units are not affected by any ability, yours or the opponents.
+								Небольшая часть этих отрядов — это
+								<b>Герои</b>
+								, их внешний вид немного отличается от других. На карты-герои не действуют никакие способности, ни ваши, ни противника.
 								<br />
-								This means that these cards cannot be removed before the end of the round and their strength cannot be changed. Exceptions to this rule are very very rare.
+								Это означает, что эти карты не могут быть удалены до конца раунда, и их сила не может быть изменена. Исключения из этого правила крайне редки.
 							</p>
 							<p>
-								Unit cards can usually be played in only one of the three rows, which is indicated on the card. Some can be placed in one of two rows.
+								Карты отрядов обычно можно разыграть только в одном из трех рядов, что указано на карте. Некоторые могут быть помещены в один из двух рядов.
 							</p>
 						</div>
 					</div>
-					<h3 class = "content-subhead">Special cards</h3>
+					<h3 class = "content-subhead">Особые карты</h3>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/lg/special_horn.jpg" alt = "Example of special card" />
-							<img class = "pure-img-responsive" src = "images/lg/weather_fog.jpg" alt = "Example of weather card" />
+							<img class = "pure-img-responsive" src = "images/lg/special_horn.jpg" alt = "Пример особой карты" />
+							<img class = "pure-img-responsive" src = "images/lg/weather_fog.jpg" alt = "Пример карты погоды" />
 						</div>
 						<div class = "pure-u-7-8">
 							<p>
-								Special cards have no strength but have a powerfull ability which can have a significant effect on the board. They usually either affect a specific or the entire board.
+								Особые карты не имеют силы, но обладают мощной способностью, которая может оказать значительное влияние на поле. Обычно они влияют либо на конкретный ряд, либо на все поле целиком.
 							</p>
 							<p>
-								Some special cards have a direct effect and are discarded right after use.
+								Некоторые особые карты имеют немедленный эффект и сбрасываются сразу после использования.
 								<br />
-								Some provide a durable effect on a row until the end of the round or before another ability removes it. These cards are not played on the battlefield but in a dedicated slot on its side.
+								Некоторые оказывают длительный эффект на ряд до конца раунда или пока другая способность не удалит его. Эти карты не выкладываются на поле боя, а помещаются в специальный слот сбоку.
 							</p>
 							<p>
-								A category of these special cards is worth a specific mention, they are called
-								<b>Weather Cards</b>.
+								Одна категория этих особых карт заслуживает особого упоминания, они называются
+								<b>Картами погоды</b>.
 								<br />
-								These cards apply a malus in a specific row but for both players at the same time (all unit cards strength is lowered to 1).
+								Эти карты накладывают штраф на конкретный ряд, но для обоих игроков одновременно (сила всех карт отрядов снижается до 1).
 								<br />
-								They are a powerfull tool which can change the course of a game. Fortunately, there is one special cards allowing to cancel these weather effects, when you have one in your, that is.
+								Они — мощный инструмент, способный изменить ход игры. К счастью, есть одна особая карта, позволяющая отменить эти погодные эффекты, если она у вас есть.
 							</p>
 							<p>
-								These cards play an important role in the strategy of Gwent and in its elegance. They are simple but deadly, it is crucial to anticipate the possibility of the opponent playing them.
+								Эти карты играют важную роль в стратегии Гвинта и в его элегантности. Они просты, но смертоносны, крайне важно предвидеть возможность того, что противник сыграет их.
 							</p>
 						</div>
 					</div>
-					<h2 class = "content-subhead">How to read the cards</h2>
+					<h2 class = "content-subhead">Как читать карты</h2>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/rules/gwent_card_legend.png" alt = "Gwent card legend" />
-							<img class = "pure-img-responsive" src = "images/rules/gwent_card_legend_2.png" alt = "Gwent special card legend" />
+							<img class = "pure-img-responsive" src = "images/rules/gwent_card_legend.png" alt = "Легенда карты Гвинт" />
+							<img class = "pure-img-responsive" src = "images/rules/gwent_card_legend_2.png" alt = "Легенда особой карты Гвинт" />
 						</div>
 						<div class = "pure-u-7-8">
 							<p>
 								<ul>
 									<li>
 										<b>1:</b>
-										Strength of the cards to contributes to the player score. What initially on the card is considered the "base strength", since the strength of unit cards can be increased/decreased by other cards.
-										<b>Special cards</b>
-										will have their ability indicated here, instead of the strength.
+										Сила карты, вносящая вклад в счет игрока. То, что изначально указано на карте, считается «базовой силой», поскольку сила карт отрядов может быть увеличена/уменьшена другими картами.
+										<b>Особые карты</b>
+										будут иметь здесь указание своей способности вместо силы.
 									</li>
 									<li>
 										<b>2:</b>
-										Card's row. This icon indicate to which row(s) the card can be placed. Sword means Melee row, Bow means Ranged row and Catapult means Siege row. In some cases, the icon while contain 2 elements, indicating that the card can be placed in several rows, at choice.
+										Ряд карты. Этот значок указывает, в какой (какие) ряд(ы) может быть помещена карта. Меч означает ряд ближнего боя, Лук — ряд дальнего боя, а Катапульта — осадный ряд. В некоторых случаях значок будет содержать 2 элемента, указывая, что карта может быть помещена в несколько рядов на выбор.
 									</li>
 									<li>
 										<b>3:</b>
-										Card's ability, when the card has one. Sometimes a card will have two abilities, the second will similarly be placed bellow this position. Abilities will be explained elsewhere.
+										Способность карты, если она есть. Иногда карта имеет две способности, вторая будет аналогично размещена ниже этой позиции. Способности будут объяснены в другом месте.
 									</li>
 									<li>
 										<b>4:</b>
-										The icon and the coloured ribbon are an indication of the faction the card is part of. Factions will be explained later. If there is no such icon/ribbon, this means the card is neutral and compatible with all factions.
+										Значок и цветная лента указывают на фракцию, к которой принадлежит карта. Фракции будут объяснены позже. Если такого значка/ленты нет, это означает, что карта нейтральна и совместима со всеми фракциями.
 									</li>
 									<li>
 										<b>5:</b>
-										Name of the card. Most cards also have a custom quote bellow the name, which relates to the character/unit/effect.
+										Название карты. У большинства карт также есть индивидуальная цитата под названием, относящаяся к персонажу/отряду/эффекту.
 									</li>
 								</ul>
 							</p>
 						</div>
 					</div>
-					<h2 class = "content-subhead" id = "abilities">Abilities</h2>
+					<h2 class = "content-subhead" id = "abilities">Способности</h2>
 					<p>
-						This card game revolves a lot around a set of abilities, they allow to develop strategies and adapt/react to the opponent's.
+						Эта карточная игра во многом строится вокруг набора способностей, они позволяют разрабатывать стратегии и адаптироваться/реагировать на стратегии противника.
 						<br />
-						The beauty of Gwent is that the number of abilities remains rather low and easy to grasp.
+						Красота Гвинта в том, что количество способностей остается довольно небольшим и их легко освоить.
 						<br />
-						Unlike the official modern Gwent game where each card has a unique effect, the original Gwent has multiple cards having the same ability.
+						В отличие от официальной современной игры Гвинт, где каждая карта имеет уникальный эффект, в оригинальном Гвинте несколько карт имеют одинаковую способность.
 						<br />
-						Consequently, it is much easier to understand what a card does (a quick look at the card is usually enough) and what a deck can do.
+						Следовательно, гораздо легче понять, что делает карта (обычно достаточно быстрого взгляда на карту) и что может сделать колода.
 					</p>
-					<h3 class = "content-subhead">Abilities available</h3>
-					<h4 class = "content-subhead">Original game</h4>
+					<h3 class = "content-subhead">Доступные способности</h3>
+					<h4 class = "content-subhead">Оригинальная игра</h4>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_scorch.png" alt = "Scorch unit ability" />
-							<img class = "pure-img-responsive" src = "images/icons/card_special_scorch.png" alt = "Scorch special ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_scorch.png" alt = "Способность отряда: Сожжение" />
+							<img class = "pure-img-responsive" src = "images/icons/card_special_scorch.png" alt = "Особая способность: Сожжение" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Scorch</div>
+							<div class = "ability-list-name">Сожжение</div>
 							<div class = "ability-list-description">
 								<p>
-									This ability is quite simple, it destroys (removes from the board and sends to the graveyard/discard pile) all the unit cards (not heroes) having the highest strength.
+									Эта способность довольно проста: она уничтожает (убирает с поля и отправляет на кладбище/в сброс) все карты отрядов (не героев), имеющие наибольшую силу.
 									<br />
-									It affects the entire board, for both players, so it means you can destroy your own cards.
+									Она воздействует на все поле, для обоих игроков, то есть вы можете уничтожить и свои карты.
 								</p>
 								<p>
-									It is best used when the opponent has several units with the same value (and no other units on the board is stronger) or when a single unit represents a big part of the total strength of the player.
+									Ее лучше всего использовать, когда у противника есть несколько отрядов с одинаковым значением (и нет других, более сильных отрядов на поле) или когда один отряд составляет большую часть общей силы игрока.
 								</p>
 								<p>
-									Note that when using this ability from a card, the card is excluded from the effect, it cannot destroy itself and it doesn't count in what the strongest units are.
+									Обратите внимание, что при использовании этой способности с карты, сама карта исключается из эффекта, она не может уничтожить себя и не учитывается при определении самых сильных отрядов.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_scorch_combat.png" alt = "Scorch combat unit ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_scorch_combat.png" alt = "Способность отряда: Боевое сожжение" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Scorch Combat</div>
+							<div class = "ability-list-name">Боевое сожжение</div>
 							<div class = "ability-list-description">
 								<p>
-									This ability is a slight variation of Scorch. Instead of affecting the entire board for both players, it affects only one of the opponent row.
+									Эта способность является небольшим вариантом Сожжения. Вместо воздействия на все поле для обоих игроков, она воздействует только на один ряд противника.
 									<br />
-									If the total strength present in that row is 10 or higher (heroes included), it destroys the strongest units of the row (but not heroes).
+									Если общая сила в этом ряду равна 10 или выше (включая героев), она уничтожает сильнейшие отряды в ряду (но не героев).
 								</p>
 								<p>
-									Originally, the target row of this effect was the opposite row the card is played in.
+									Изначально целью этого эффекта был противоположный ряд тому, в который была сыграна карта.
 									<br />
-									However, we have changed it to always target the Melee row to make this ability a little more usable/effective and predictable, because most factions have a lot more Melee units than the other rows.
+									Однако мы изменили его, чтобы он всегда нацеливался на ряд ближнего боя, чтобы сделать эту способность немного более полезной/эффективной и предсказуемой, поскольку у большинства фракций гораздо больше отрядов ближнего боя, чем в других рядах.
 									<br />
-									Also, we believe that having this ability affect only the first enemy line seems more "realistic".
+									Кроме того, мы считаем, что воздействие этой способности только на первую линию врага кажется более «реалистичным».
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_muster.png" alt = "Muster ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_muster.png" alt = "Способность: Сбор" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Muster</div>
+							<div class = "ability-list-name">Сбор</div>
 							<div class = "ability-list-description">
 								<p>
-									When a card with the Muster ability is played on the board, it summons as well all the other cards in your deck and hand with the same name.
+									Когда карта со способностью «Сбор» разыгрывается на поле, она также призывает все другие карты с тем же названием из вашей колоды и руки.
 									<br />
-									In reality, they do not always have the same name but they share a common element which is easily distinguishable.
+									В реальности они не всегда имеют одно и то же имя, но у них есть общий элемент, который легко различим.
 								</p>
 								<p>
-									The power of this ability resides in the fact it can quickly add several cards to the board and increase your total score.
+									Сила этой способности заключается в том, что она может быстро добавить несколько карт на поле и увеличить ваш общий счет.
 									<br />
-									Its weakness is that the cards often have the same strength and can consequently be destroyed all at the same time if not played carefully.
+									Ее слабость в том, что карты часто имеют одинаковую силу и, следовательно, могут быть уничтожены все одновременно, если не играть осторожно.
 									<br />
-									Also, keep in mind that if you have several Muster cards of the same familly in hand, playing one of them will play all the copies in hand, putting you at a disadvantage.
+									Также имейте в виду, что если у вас в руке несколько карт Сбора из одной семьи, розыгрыш одной из них разыграет все копии из руки, поставив вас в невыгодное положение.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_bond.png" alt = "Tight Bond ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_bond.png" alt = "Способность: Крепкая связь" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Tight Bond</div>
+							<div class = "ability-list-name">Крепкая связь</div>
 							<div class = "ability-list-description">
 								<p>
-									In a way, the Tight Bond ability behaves similarly to the Muster ability. These cards are part of a "familly" and are stronger together.
+									В некотором смысле способность «Крепкая связь» ведет себя аналогично способности «Сбор». Эти карты являются частью «семьи» и вместе они сильнее.
 									<br />
-									For each card of the same familly (same or similar name) with the Tight Bond ability, the base strength of the card is multiplied by the number of copies in the same row.
+									За каждую карту одной семьи (с тем же или похожим названием) со способностью «Крепкая связь» базовая сила карты умножается на количество копий в том же ряду.
 									<br />
-									So if you have managed to play 3 copies, each card will have its value tripled. All combined, the total will be 9 times higher than without the ability.
+									Так что, если вам удалось разыграть 3 копии, каждая карта будет иметь утроенное значение. В сумме общая сила будет в 9 раз выше, чем без способности.
 								</p>
 								<p>
-									The power of this ability is that you can reach a very high strength on the row, so high that it will be very difficult for your opponent to match it (with 3 cards you have the strength of 9 cards).
+									Сила этой способности в том, что вы можете достичь очень высокой силы в ряду, настолько высокой, что противнику будет очень трудно ее сравнять (3 карты дают силу 9 карт).
 									<br />
-									However, this very strength is also its main weakness. Since these cards are copies, they share the same strength and tend to be the strongest cards on the board, easy target for Scorch.
+									Однако эта же сила является и ее главной слабостью. Поскольку эти карты являются копиями, они имеют одинаковую силу и, как правило, являются самыми сильными картами на поле, что делает их легкой мишенью для Сожжения.
 									<br />
-									Also, a single copy of such a card isn't very strong, the most important part is managing to gather several copies.
+									Кроме того, одна копия такой карты не очень сильна, самая важная часть — это суметь собрать несколько копий.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_morale.png" alt = "Morale Boost ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_morale.png" alt = "Способность: Боевой дух" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Morale Boost</div>
+							<div class = "ability-list-name">Боевой дух</div>
 							<div class = "ability-list-description">
 								<p>
-									Now let's get into row boosting. Morale boost increases the base strength of all units of the row by 1, except on itself. It is obviously more effective if you have many units concentrated in the same row.
+									Теперь перейдем к усилению рядов. Боевой дух увеличивает базовую силу всех отрядов в ряду на 1, кроме себя самого. Очевидно, это более эффективно, если у вас много отрядов, сосредоточенных в одном ряду.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_horn.png" alt = "Commander' Horn unit ability" />
-							<img class = "pure-img-responsive" src = "images/icons/card_special_horn.png" alt = "Commander' Horn special ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_horn.png" alt = "Способность отряда: Рог командора" />
+							<img class = "pure-img-responsive" src = "images/icons/card_special_horn.png" alt = "Особая способность: Рог командора" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Commander' Horn</div>
+							<div class = "ability-list-name">Рог командора</div>
 							<div class = "ability-list-description">
 								<p>
-									A stronger boost now. Commander' Horn doubles the strength of all units (not heroes then) in the row. It applies last, so it combines well with other boosts.
+									Более сильное усиление. Рог командора удваивает силу всех отрядов (но не героев) в ряду. Он применяется последним, поэтому хорошо сочетается с другими усилениями.
 									<br />
-									Here as well, it is more effective in a row with many cards, but the number of cards isn't has important as for Morale Boost. A couple Tight Bond cards might have a larger boost potential than 5 weak cards.
+									Здесь также он более эффективен в ряду с большим количеством карт, но количество карт не так важно, как для Боевого духа. Пара карт с Крепкой связью может иметь больший потенциал усиления, чем 5 слабых карт.
 									<br />
-									While this ability hold a huge potential, it also makes yourself very vulnerable to Scorch.
+									Хотя эта способность имеет огромный потенциал, она также делает вас очень уязвимыми для Сожжения.
 								</p>
 								<p>
-									When this ability is played through a unit, the unit does not boost itself.
+									Когда эта способность разыгрывается через отряд, отряд не усиливает сам себя.
 									<br />
-									Also, only one Commander' Horn can be effective at the same time in a row. If several cards in the row have it, it will aply only once.
+									Кроме того, только один Рог командора может быть эффективен одновременно в ряду. Если несколько карт в ряду имеют его, он сработает только один раз.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_medic.png" alt = "Medic ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_medic.png" alt = "Способность: Медик" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Medic</div>
+							<div class = "ability-list-name">Медик</div>
 							<div class = "ability-list-description">
 								<p>
-									When a card is removed from the board (destroyed or at the end of a round), it goes into the graveyard (aka discard pile).
+									Когда карта удаляется с поля (уничтожается или в конце раунда), она отправляется на кладбище (также называемое стопкой сброса).
 									<br />
-									The Medic ability allows to restore a unit card (not a hero) from the grave.
+									Способность Медика позволяет вернуть карту отряда (не героя) из сброса.
 									<br />
-									When a card is restored on the board, its abilities apply again.
+									Когда карта возвращается на поле, ее способности срабатывают снова.
 								</p>
 								<p>
-									This ability is very powerfull because it effectively gives you an additional card on the long term. It also allows you to use again some important abilities, which can be very decisive.
+									Эта способность очень сильна, потому что она фактически дает вам дополнительную карту в долгосрочной перспективе. Она также позволяет вам снова использовать некоторые важные способности, что может быть очень важным.
 									<br />
-									This card is like wine, it gets better with time. The later you play it, the more options of cards you have. If your graveyard is empty, this ability isn't very useful.
+									Эта карта как вино — становится лучше со временем. Чем позже вы ее разыгрываете, тем больше у вас вариантов карт. Если ваше кладбище пусто, эта способность не очень полезна.
 									<br />
-									A medic can even restore another medic, allowing you to restore yet another card.
+									Медик может даже вернуть другого медика, позволяя вам вернуть еще одну карту.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_spy.png" alt = "Spy ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_spy.png" alt = "Способность: Шпион" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Spy</div>
+							<div class = "ability-list-name">Шпион</div>
 							<div class = "ability-list-description">
 								<p>
-									Probably the most infamous ability of the game. We said earlier that cards are the most important resource of the game and that's the aim of this ability, give a card advantage (meaning getting more cards than your opponen).
+									Вероятно, самая известная способность в игре. Ранее мы говорили, что карты — самый важный ресурс игры, и цель этой способности — дать преимущество в картах (то есть получить больше карт, чем у противника).
 									<br />
-									When this card is played, it goes in the side of your opponent and will contribute to increase his/her total score.
+									Когда эта карта разыгрывается, она помещается на сторону вашего противника и будет увеличивать его/ее общий счет.
 									<br />
-									In return, you will draw two cards from your deck. The aftermath is that you gave a card to your opponent but you know have one more card in your card than before, and 2 more options to play later.
+									Взамен вы берете две карты из своей колоды. В итоге вы отдали карту противнику, но теперь у вас на одну карту больше, чем было, и на 2 варианта больше для последующей игры.
 								</p>
 								<p>
-									In addition to the card advantage this card gives you, having drawn more cards than initially possible gives you more options and more chances to get good combos.
+									В дополнение к преимуществу в картах, которое дает эта карта, возможность взять больше карт, чем изначально возможно, дает вам больше возможностей и больше шансов получить хорошие комбинации.
 									<br />
-									Be careful though, once on the opponent side of the board, the spy is under his/control and it can be played back against you.
+									Однако будьте осторожны: оказавшись на стороне противника, шпион находится под его/ее контролем и может быть использован против вас.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_decoy.png" alt = "Decoy unit ability" />
-							<img class = "pure-img-responsive" src = "images/icons/card_special_decoy.png" alt = "Decoy special ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_decoy.png" alt = "Способность отряда: Приманка" />
+							<img class = "pure-img-responsive" src = "images/icons/card_special_decoy.png" alt = "Особая способность: Приманка" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Decoy</div>
+							<div class = "ability-list-name">Приманка</div>
 							<div class = "ability-list-description">
 								<p>
-									This ability is often summarized as the counter to spies. It allows to swap one unit on the board with this card (in other words, take the targert card back into your hand).
+									Эту способность часто называют контрой для шпионов. Она позволяет обменять один отряд на поле на эту карту (другими словами, взять целевую карту обратно в руку).
 								</p>
 								<p>
-									The Decoy ability has many advantages. Obviously, this is a great counter to spies, because you can restore the balance by playing the spy back and draw cards as well.
+									У способности Приманки много преимуществ. Очевидно, это отличная контра для шпионов, потому что вы можете восстановить равновесие, разыграв шпиона обратно и также взять карты.
 									<br />
-									But it can also be used on other cards with important abilities, such as Scorch or Medic.
+									Но ее также можно использовать на других картах с важными способностями, таких как Сожжение или Медик.
 									<br />
-									Also, keep in mind that effectively when you play a Decoy, it is almost like skipping a round because your hand size does not reduce, this is often underestimated.
+									Кроме того, имейте в виду, что, разыгрывая Приманку, вы как бы пропускаете ход, потому что размер вашей руки не уменьшается — это часто недооценивают.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_agile.png" alt = "Agile ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_agile.png" alt = "Способность: Проворный" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Agile</div>
+							<div class = "ability-list-name">Проворный</div>
 							<div class = "ability-list-description">
 								<p>
-									This ability is rarely used and thus rarely has a visible effect after the card is played.
+									Эта способность используется редко и, таким образом, редко имеет видимый эффект после того, как карта сыграна.
 									<br />
-									Basicaly, it goes in combination with cards which can be played on the Melee or Ranged row (which is the most useful part).
+									В основном она сочетается с картами, которые можно разыграть в ряд ближнего или дальнего боя (что и есть самая полезная часть).
 									<br />
-									Under some limited circumpstances, agile cards can be moved later in the round to a more favourable row.
+									При некоторых ограниченных обстоятельствах проворные карты могут быть перемещены позже в раунде в более благоприятный ряд.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_avenger.png" alt = "Summon Avenger ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_avenger.png" alt = "Способность: Призыв мстителя" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Summon Avenger</div>
+							<div class = "ability-list-name">Призыв мстителя</div>
 							<div class = "ability-list-description">
 								<p>
-									A bit like Medic, the Summon Avenger ability takes longer to show its effects.
+									Немного как Медик, способность Призыв мстителя требует больше времени, чтобы проявить свои эффекты.
 									<br />
-									When a card with this ability is removed from the board (either destroyed or at the end of the round), it is replaced by another more powerful card.
+									Когда карта с этой способностью удаляется с поля (либо уничтожается, либо в конце раунда), она заменяется другой, более сильной картой.
 									<br />
-									More often than not, this other card will enter battle at the begining of the next round.
+									Чаще всего эта другая карта вступит в бой в начале следующего раунда.
 								</p>
 								<p>
-									Usually a unit with the Summon Avenger will be very weak. Playing it is like investing on the future because it will allow yourself to start the next round with an advantage (provided the card wasn't destroyed before the end of the round).
+									Обычно отряд с Призывом мстителя будет очень слабым. Разыграть его — все равно что инвестировать в будущее, потому что это позволит вам начать следующий раунд с преимуществом (при условии, что карта не была уничтожена до конца раунда).
 									<br />
-									This ability combines very well with Medic.
+									Эта способность очень хорошо сочетается с Медиком.
 									<br />
-									Note that if the card that should be summoned is in your hand or deck, it will be taken from there. Otherwise, it will be "created" but it will not go into your graveyard when removed.
+									Обратите внимание, что если карта, которая должна быть призвана, находится в вашей руке или колоде, она будет взята оттуда. В противном случае она будет «создана», но не отправится на кладбище при удалении.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_berserker.png" alt = "Berserker unit ability" />
-							<img class = "pure-img-responsive" src = "images/icons/card_special_mardroeme.png" alt = "Mardroeme special ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_berserker.png" alt = "Способность отряда: Берсерк" />
+							<img class = "pure-img-responsive" src = "images/icons/card_special_mardroeme.png" alt = "Особая способность: Мардроэме" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Berserker / Mardroeme</div>
+							<div class = "ability-list-name">Берсерк / Мардроэме</div>
 							<div class = "ability-list-description">
 								<p>
-									These two abilities need to be presented together. They are specific to the Skellige faction.
+									Эти две способности нужно представлять вместе. Они специфичны для фракции Скеллиге.
 									<br />
-									Unit cards with the Berserker ability can be transformed into their more savage form when a card with the Mardroeme ability is played in their row.
+									Карты отрядов со способностью Берсерк могут трансформироваться в свою более свирепую форму, когда карта со способностью Мардроэме разыгрывается в их ряду.
 								</p>
 								<p>
-									Berserker units are initially not very strong, and thus not very interesting if not combined with Mardroeme.
+									Отряды-берсерки изначально не очень сильны и, следовательно, не очень интересны, если не сочетаются с Мардроэме.
 									<br />
-									However, their transformed versions are very strong but also very vulnerable to scorch.
+									Однако их трансформированные версии очень сильны, но также очень уязвимы для сожжения.
 									<br />
-									Using this ability well isn't easy.
+									Использовать эту способность хорошо непросто.
 								</p>
 							</div>
 						</div>
 					</div>
-					<h4 class = "content-subhead">Original game - Weather cards</h4>
+					<h4 class = "content-subhead">Оригинальная игра - Карты погоды</h4>
 					<p>
-						Like mentioned earlier, Weather Cards are a more specific kind of special cards (and thus special amongst abilities).
+						Как упоминалось ранее, карты погоды — это более специфический вид особых карт (и, следовательно, особые среди способностей).
 						<br />
-						Their effect is more global and will affect both players. In some rare cases, a unit card might have a weather ability, but these are exceptions.
-					</p>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_weather_frost.png" alt = "Biting Frost Weather" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Biting Frost</div>
-							<div class = "ability-list-description">
-								<p>
-									Reduce the base strength of all units in the Melee row (not heroes) to 1, for both players. This applies before any other ability/effect.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_weather_fog.png" alt = "Impenetrable Fog Weather" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Impenetrable Fog</div>
-							<div class = "ability-list-description">
-								<p>
-									Reduce the base strength of all units in the Ranged row (not heroes) to 1, for both players. This applies before any other ability/effect.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_weather_rain.png" alt = "Torrential Rain Weather" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Torrential Rain</div>
-							<div class = "ability-list-description">
-								<p>
-									Reduce the base strength of all units in the Siege row (not heroes) to 1, for both players. This applies before any other ability/effect.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_weather_storm.png" alt = "Skellige Storm Weather" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Skellige Storm</div>
-							<div class = "ability-list-description">
-								<p>
-									Reduce the base strength of all units in both the Ranged and Siege rows (not heroes) to 1, for both players. This applies before any other ability/effect.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_weather_clear.png" alt = "Clear Weather" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Clear Weather</div>
-							<div class = "ability-list-description">
-								<p>
-									Remove all other weather effects currently effective on the board, this applies to all players.
-								</p>
-							</div>
-						</div>
-					</div>
-					<h4 class = "content-subhead">New custom abilities</h4>
-					<p>
-						To extend the game with more cards and factions, additional abilities have been added. Otherwise most decks would look and play similarly.
-						<br />
-						This might make the game a little more complex, since there are more concepts to assimilate, but these abilities have been designed to keep the spirit of the original game and remain simple.
+						Их эффект более глобален и будет влиять на обоих игроков. В некоторых редких случаях карта отряда может иметь погодную способность, но это исключения.
 					</p>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_cintra_slaughter.png" alt = "Slaughter of Cintra unit ability" />
-							<img class = "pure-img-responsive" src = "images/icons/card_special_cintra_slaughter.png" alt = "Slaughter of Cintra special ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_weather_frost.png" alt = "Погода: Пронизывающий мороз" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Slaughter of Cintra</div>
+							<div class = "ability-list-name">Пронизывающий мороз</div>
 							<div class = "ability-list-description">
 								<p>
-									Like the name suggest, the Slaughter of Cintra ability applies to some Cintrian units. Some units have this ability, they are marked for slaugther.
-									<br />
-									When the corresponding special card is played, all of your cards on the board being marked (having the ability) are destroyed and move to the discard pile.
-									<br />
-									In return, you draw a card from the deck for each of the removed cards. This gives you a potential card advantage.
-								</p>
-								<p>
-									The trick is that you are not forced to use the special ability, the marked units can stay on the board and you can keep their strength for your total score.
-									<br />
-									So your opponent does not know whether you are planning to throw the round for card advantage or if you will keep the units.
+									Уменьшает базовую силу всех отрядов в ряду ближнего боя (не героев) до 1 для обоих игроков. Это применяется перед любой другой способностью/эффектом.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_special_toussaint_wine.png" alt = "Toussaint wine ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_weather_fog.png" alt = "Погода: Непроницаемый туман" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Toussaint Wine</div>
+							<div class = "ability-list-name">Непроницаемый туман</div>
 							<div class = "ability-list-description">
 								<p>
-									Toussaint Wine ability is like the cross of a Commander's Horn and Morale Boost. The ability will be played and stay on a row and boost all unit cards (not heroes) by 2 (instead of 1 like Morale Boost).
+									Уменьшает базовую силу всех отрядов в ряду дальнего боя (не героев) до 1 для обоих игроков. Это применяется перед любой другой способностью/эффектом.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_special_bank.png" alt = "Bank ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_weather_rain.png" alt = "Погода: Проливной дождь" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Bank</div>
+							<div class = "ability-list-name">Проливной дождь</div>
 							<div class = "ability-list-description">
 								<p>
-									Bank ability is quite simple. You play it and you draw a card from your deck. No complication.
-									<br />
-									It is a little like skipping a round (you keep the same number of cards in your hand), except you do not know with which card you'll end up.
+									Уменьшает базовую силу всех отрядов в осадном ряду (не героев) до 1 для обоих игроков. Это применяется перед любой другой способностью/эффектом.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_special_lock.png" alt = "Lock ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_weather_storm.png" alt = "Погода: Шторм Скеллиге" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Lock</div>
+							<div class = "ability-list-name">Шторм Скеллиге</div>
 							<div class = "ability-list-description">
 								<p>
-									This ability is actually shared by several special cards. This card is played in one of the opponent's row.
-									<br />
-									If he/she plays a unit card (not a hero) in that row and that the units has an ability, the card will be locked and this special card will go to the graveyard.
-									<br />
-									A locked card cannot use its ability until it is removed from the board.
-								</p>
-								<p>
-									This ability requires a good understanding of the opponent deck and anticipation of the cards it can have.
-									<br />
-									It is very powerfull at preventing Muster and Tight Bond from working as intended.
-									<br />
-									Be careful though not to play your spy in this row while a lock is pending.
+									Уменьшает базовую силу всех отрядов в рядах дальнего боя и осадном (не героев) до 1 для обоих игроков. Это применяется перед любой другой способностью/эффектом.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_special_knockback.png" alt = "Knockback ability" />
+							<img class = "pure-img-responsive" src = "images/icons/card_weather_clear.png" alt = "Погода: Ясная погода" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Knockback</div>
+							<div class = "ability-list-name">Ясная погода</div>
 							<div class = "ability-list-description">
 								<p>
-									This ability is quite straight-forward. It is played in either the enemy Melee or Ranged row. All unit cards (not heroes) are moved 1 row backward towards the Siege row.
-								</p>
-								<p>
-									The purpose of this ability is mostly to break some effective row bonuses (like a Commander's Horn) or to push units into bad weather.
+									Убирает все другие активные погодные эффекты с поля, это касается всех игроков.
 								</p>
 							</div>
 						</div>
 					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_special_seize.png" alt = "Seize ability" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Seize</div>
-							<div class = "ability-list-description">
-								<p>
-									When using this ability, you will take control of the units with the lower strength in the enemy Melee row. If there are several, take all.
-								</p>
-								<p>
-									This ability can be very strong on Muster units or when the enemy Melee row is under bad weather. Be careful though that the timing is key.
-									<br />
-									Good targets this round might not be available next round because the opponent will have played a weaker card.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_special_shield.png" alt = "Shield ability" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Shield</div>
-							<div class = "ability-list-description">
-								<p>
-									This ability protects an entire row from all abilities of the opponent, except weather, until the end of the round.
-									<br />
-									The main purpose is to protect the row from Scorch. Note that consequently cards in this row do not count in the definition of the highest strength on the board.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_witch_hunt.png" alt = "Witch Hunt ability" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Witch Hunt</div>
-							<div class = "ability-list-description">
-								<p>
-									This ability is the mirror effect of Scorch Combat, it destroys the weakest units (not heroes) in the opposite row this card is playing on.
-									<br />
-									It is a very powerfull counter to Muster.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_witcher_wolf_school.png" alt = "Witcher Wolf School ability" />
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_witcher_viper_school.png" alt = "Witcher Viper School ability" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Witcher School(s)</div>
-							<div class = "ability-list-description">
-								<p>
-									This Witcher School ability is actually 5 identical abilities.
-									<br />
-									There is one variation of the ability for each Witcher School (Wolf, Viper, Cat, Bear and Griffin).
-									<br />
-									When there is more than one unit card of a same Witcher School, boost all of these by 2 for each other members of the school (e.g. there are 3 cards of the School of the Wolf, boost all units by 4).	
-								</p>
-								<p>
-									This ability seems difficult to exploit, but it works in combination with another ability.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_resilience.png" alt = "Resilience ability" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Resilience</div>
-							<div class = "ability-list-description">
-								<p>
-									If at the end of the round you have a card with the Resilience ability on the board and that it shares a second ability with another card on the board, keep the card with Resilience on the board for the next round.
-								</p>
-								<p>
-									For now, cards with the Resilience ability are Witchers Keeps. They stay on the board if a witcher of the corresponding school was also here.
-									<br />
-									This card will also contribute to boost witchers of the same school.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_whorshipper.png" alt = "Whorshipper ability" />
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_whorshipped.png" alt = "Whorshipped ability" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Whorshipper/Whorshipped</div>
-							<div class = "ability-list-description">
-								<p>
-									Whorshipped units are boosted by the amount of Whorshipper units on the board.
-								</p>
-								<p>
-									This ability requires to combine two type of cards for a powerful result.
-									<br />
-									Medic units can help to prolongate this combo into later rounds.
-									<br />
-									Be careful that it exposes a lot Whorshipped units to scorch.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pure-g">
-						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/card_ability_inspire.png" alt = "Inspire ability" />
-						</div>
-						<div class = "pure-u-7-8">
-							<div class = "ability-list-name">Inspire</div>
-							<div class = "ability-list-description">
-								<p>
-									All units with Inspire ability take the highest base strength of the Inspire units on your side of the board. Still affected by weather.
-								</p>
-								<p>
-									Basically, if you have several units on the board with the Inspire ability, they will align to the highest base strength among them (base strength, meaning before any effect, positive or negative).
-									<br />
-									Consequently playing late a stronger Inspire unit will boost all others on the board, which can bring an unpleasant and unnexpected surprise to the opponent.
-									<br />
-									Be aware though that since all Inspire units will have the same strength (prior to effects), they are vulnerable to scorch and can all be destroyed at the same time.
-									<br />
-									Providing a boost to some of them can help remediate this effect.
-								</p>
-							</div>
-						</div>
-					</div>
-					<h2 class = "content-subhead" id = "factions">Factions</h2>
+					<h4 class = "content-subhead">Новые пользовательские способности</h4>
 					<p>
-						The Witcher universe is vast, so to bring more variety and fun to the game, it is divided into several factions.
+						Чтобы расширить игру новыми картами и фракциями, были добавлены дополнительные способности. В противном случае большинство колод выглядели бы и играли бы одинаково.
 						<br />
-						Factions usually represent a realm or a group/faction of people. Each faction has its own set of cards along with a faction ability, and thus its own playstyle.
+						Это может сделать игру немного сложнее, так как нужно усвоить больше концепций, но эти способности были разработаны так, чтобы сохранить дух оригинальной игры и оставаться простыми.
+					</p>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_cintra_slaughter.png" alt = "Способность отряда: Цинтрийская резня" />
+							<img class = "pure-img-responsive" src = "images/icons/card_special_cintra_slaughter.png" alt = "Особая способность: Цинтрийская резня" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Цинтрийская резня</div>
+							<div class = "ability-list-description">
+								<p>
+									Как следует из названия, способность Цинтрийская резня применяется к некоторым цинтрийским отрядам. У некоторых отрядов есть эта способность, они помечены для резни.
+									<br />
+									Когда разыгрывается соответствующая особая карта, все ваши карты на поле, имеющие эту метку (обладающие способностью), уничтожаются и перемещаются в сброс.
+									<br />
+									Взамен вы берете карту из колоды за каждую из удаленных карт. Это дает вам потенциальное преимущество в картах.
+								</p>
+								<p>
+									Хитрость в том, что вы не обязаны использовать особую способность, помеченные отряды могут оставаться на поле, и вы можете сохранить их силу для своего общего счета.
+									<br />
+									Так что ваш противник не знаете, планируете ли вы сдать раунд ради преимущества в картах или сохраните отряды.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_special_toussaint_wine.png" alt = "Способность: Туссентское вино" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Туссентское вино</div>
+							<div class = "ability-list-description">
+								<p>
+									Способность Туссентского вина подобна помеси Рога командора и Боевого духа. Способность разыгрывается и остается в ряду, усиливая все карты отрядов (не героев) на 2 (вместо 1, как Боевой дух).
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_special_bank.png" alt = "Способность: Банк" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Банк</div>
+							<div class = "ability-list-description">
+								<p>
+									Способность Банка довольно проста. Вы играете ее и берете карту из своей колоды. Никаких сложностей.
+									<br />
+									Это похоже на пропуск хода (у вас остается то же количество карт в руке), за исключением того, что вы не знаете, с какой картой останетесь.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_special_lock.png" alt = "Способность: Блокировка" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Блокировка</div>
+							<div class = "ability-list-description">
+								<p>
+									Эта способность на самом деле общая для нескольких особых карт. Эта карта разыгрывается в один из рядов противника.
+									<br />
+									Если он/она разыгрывает карту отряда (не героя) в этом ряду, и у отряда есть способность, карта будет заблокирована, и эта особая карта отправится на кладбище.
+									<br />
+									Заблокированная карта не может использовать свою способность, пока не будет удалена с поля.
+								</p>
+								<p>
+									Эта способность требует хорошего понимания колоды противника и предвидения карт, которые в ней могут быть.
+									<br />
+									Она очень эффективна для предотвращения срабатывания Сбора и Крепкой связи.
+									<br />
+									Однако будьте осторожны, не играйте своего шпиона в этот ряд, пока там висит блокировка.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_special_knockback.png" alt = "Способность: Отбрасывание" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Отбрасывание</div>
+							<div class = "ability-list-description">
+								<p>
+									Эта способность довольно прямолинейна. Она разыгрывается либо в ряд ближнего, либо дальнего боя противника. Все карты отрядов (не герои) перемещаются на 1 ряд назад, в сторону осадного ряда.
+								</p>
+								<p>
+									Цель этой способности — в основном разрушить некоторые эффективные бонусы ряда (например, Рог командора) или столкнуть отряды в плохую погоду.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_special_seize.png" alt = "Способность: Захват" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Захват</div>
+							<div class = "ability-list-description">
+								<p>
+									При использовании этой способности вы берете под контроль отряды с наименьшей силой в ряду ближнего боя противника. Если их несколько, забираете всех.
+								</p>
+								<p>
+									Эта способность может быть очень сильной против отрядов со Сбором или когда ряд ближнего боя противника находится под плохой погодой. Однако будьте осторожны, выбор времени имеет решающее значение.
+									<br />
+									Хорошие цели в этом раунде могут быть недоступны в следующем, потому что противник разыграет более слабую карту.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_special_shield.png" alt = "Способность: Щит" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Щит</div>
+							<div class = "ability-list-description">
+								<p>
+									Эта способность защищает целый ряд от всех способностей противника, кроме погоды, до конца раунда.
+									<br />
+									Основная цель — защитить ряд от Сожжения. Обратите внимание, что карты в этом ряду, следовательно, не учитываются при определении наивысшей силы на поле.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_witch_hunt.png" alt = "Способность: Охота на ведьм" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Охота на ведьм</div>
+							<div class = "ability-list-description">
+								<p>
+									Эта способность является зеркальным отражением Боевого сожжения, она уничтожает самые слабые отряды (не героев) в противоположном ряду от того, куда играется эта карта.
+									<br />
+									Это очень мощная контра для Сбора.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_witcher_wolf_school.png" alt = "Способность: Школа Волка" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_witcher_viper_school.png" alt = "Способность: Школа Змеи" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Школы Ведьмаков</div>
+							<div class = "ability-list-description">
+								<p>
+									Эта способность Школы Ведьмаков на самом деле представляет собой 5 одинаковых способностей.
+									<br />
+									Существует по одной вариации способности для каждой Школы Ведьмаков (Волк, Змея, Кошка, Медведь и Грифон).
+									<br />
+									Когда на поле есть более одной карты отряда из одной Школы Ведьмаков, усилить все эти карты на 2 за каждого другого члена школы (например, есть 3 карты Школы Волка, усилить все отряды на 4).	
+								</p>
+								<p>
+									Эта способность кажется сложной для использования, но она работает в сочетании с другой способностью.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_resilience.png" alt = "Способность: Стойкость" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Стойкость</div>
+							<div class = "ability-list-description">
+								<p>
+									Если в конце раунда у вас есть карта со способностью Стойкость на поле и она имеет общую вторую способность с другой картой на поле, оставьте карту со Стойкостью на поле для следующего раунда.
+								</p>
+								<p>
+									На данный момент карты со Стойкостью — это Укрепления ведьмаков. Они остаются на поле, если ведьмак соответствующей школы также был здесь.
+									<br />
+									Эта карта также будет способствовать усилению ведьмаков той же школы.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_whorshipper.png" alt = "Способность: Поклоняющийся" />
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_whorshipped.png" alt = "Способность: Обожествляемый" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Поклоняющийся/Обожествляемый</div>
+							<div class = "ability-list-description">
+								<p>
+									Обожествляемые отряды получают усиление, равное количеству отрядов-Поклоняющихся на поле.
+								</p>
+								<p>
+									Эта способность требует комбинирования двух типов карт для мощного результата.
+									<br />
+									Отряды-медики могут помочь продлить эту комбинацию на следующие раунды.
+									<br />
+									Будьте осторожны: это сильно подвергает Обожествляемые отряды риску сожжения.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class = "pure-g">
+						<div class = "pure-u-1-8">
+							<img class = "pure-img-responsive" src = "images/icons/card_ability_inspire.png" alt = "Способность: Вдохновение" />
+						</div>
+						<div class = "pure-u-7-8">
+							<div class = "ability-list-name">Вдохновение</div>
+							<div class = "ability-list-description">
+								<p>
+									Все отряды со способностью Вдохновение принимают наивысшую базовую силу среди отрядов с Вдохновением на вашей стороне поля. По-прежнему подвержены влиянию погоды.
+								</p>
+								<p>
+									По сути, если у вас на поле есть несколько отрядов со способностью Вдохновение, они подстроятся под наивысшую базовую силу среди них (базовую силу, то есть до применения каких-либо эффектов, положительных или отрицательных).
+									<br />
+									Следовательно, розыгрыш более сильного отряда с Вдохновением позже усилит всех остальных на поле, что может стать неприятным и неожиданным сюрпризом для противника.
+									<br />
+									Однако имейте в виду, что, поскольку все отряды с Вдохновением будут иметь одинаковую силу (до применения эффектов), они уязвимы для сожжения и могут быть уничтожены все одновременно.
+									<br />
+									Усиление некоторых из них может помочь исправить этот эффект.
+								</p>
+							</div>
+						</div>
+					</div>
+					<h2 class = "content-subhead" id = "factions">Фракции</h2>
+					<p>
+						Вселенная Ведьмака обширна, поэтому, чтобы привнести больше разнообразия и веселья в игру, она разделена на несколько фракций.
 						<br />
-						A faction ability, often passive (triggered at a specific moment of the game) but sometimes active as well (used at the discretion of the player), will have a significant influence on the way to play the game because you need to adapt to it to make the best of it.
+						Фракции обычно представляют королевство или группу/фракцию людей. У каждой фракции есть свой собственный набор карт, а также способность фракции, а значит, и свой стиль игры.
+						<br />
+						Способность фракции, часто пассивная (срабатывает в определенный момент игры), но иногда и активная (используется на усмотрение игрока), будет оказывать значительное влияние на способ игры, потому что вам нужно адаптироваться к ней, чтобы выжать из нее максимум.
 					</p>
 					<p>
-						Before to start the game, a player must chose the faction to play, which will define the set of leaders and units that can be used to build the deck.
+						Перед началом игры игрок должен выбрать фракцию, за которую будет играть, что определит набор лидеров и отрядов, которые можно использовать для построения колоды.
 						<br />
-						Some unit and special cards are
-						<b>Neutral</b>,
-						this means that they can be played in any faction.
+						Некоторые карты отрядов и особые карты являются
+						<b>Нейтральными</b>,
+						это означает, что они могут быть использованы в любой фракции.
 					</p>
-					<h3 class = "content-subhead">Factions available</h3>
-					<h4 class = "content-subhead">Original game</h4>
+					<h3 class = "content-subhead">Доступные фракции</h3>
+					<h4 class = "content-subhead">Оригинальная игра</h4>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_realms.png" alt = "Northern Realms Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_realms.png" alt = "Фракция: Северные Королевства" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Northern Realms</div>
+							<div class = "faction-list-name">Северные Королевства</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									Draw a card from your deck when you win a round.
+									<b>Способность фракции:</b>
+									Возьмите карту из колоды, когда выигрываете раунд.
 									<br />
-									This faction relies mostly on Tight Bond units, along with Spies and Siege units.
+									Эта фракция в основном полагается на отряды с Крепкой связью, а также на Шпионов и осадные отряды.
 								</p>
 							</div>
 						</div>
@@ -843,16 +843,16 @@
 					<br />
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_nilfgaard.png" alt = "Nilfgaard Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_nilfgaard.png" alt = "Фракция: Нильфгаард" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Nilfgaard</div>
+							<div class = "faction-list-name">Нильфгаард</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									If a round ends in a draw, Nilfgaard wins the round.
+									<b>Способность фракции:</b>
+									Если раунд заканчивается вничью, Нильфгаард выигрывает раунд.
 									<br />
-									This faction relies mostly on Tight Bond units, Spies, Medics and Strong cards.
+									Эта фракция в основном полагается на отряды с Крепкой связью, Шпионов, Медиков и сильные карты.
 								</p>
 							</div>
 						</div>
@@ -860,16 +860,16 @@
 					<br />
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_monsters.png" alt = "Monsters Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_monsters.png" alt = "Фракция: Чудовища" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Monsters</div>
+							<div class = "faction-list-name">Чудовища</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									At the end of each round, a random unit card stays on the board.
+									<b>Способность фракции:</b>
+									В конце каждого раунда одна случайная карта отряда остается на поле.
 									<br />
-									This faction relies heavily on the Muster ability, it can quickly swarm the board.
+									Эта фракция в значительной степени полагается на способность Сбор, она может быстро заполнить поле.
 								</p>
 							</div>
 						</div>
@@ -877,16 +877,16 @@
 					<br />
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_scoiatael.png" alt = "Scoia'Tael Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_scoiatael.png" alt = "Фракция: Скоя'таэли" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Scoia'Tael</div>
+							<div class = "faction-list-name">Скоя'таэли</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									Before the game starts, this faction decides who plays first.
+									<b>Способность фракции:</b>
+									Перед началом игры эта фракция решает, кто ходит первым.
 									<br />
-									This faction relies mostly on Muster and Medic units and some Morale Boost.
+									Эта фракция в основном полагается на отряды со Сбором и Медиков, а также на некоторый Боевой дух.
 								</p>
 							</div>
 						</div>
@@ -894,33 +894,33 @@
 					<br />
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_skellige.png" alt = "Skellige Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_skellige.png" alt = "Фракция: Скеллиге" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Skellige</div>
+							<div class = "faction-list-name">Скеллиге</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									On the third round, restores two random unit cards from the graveyard.
+									<b>Способность фракции:</b>
+									В третьем раунде возвращает две случайные карты отрядов из кладбища.
 									<br />
-									This faction has a balance of Tight Bond, Muster and Medic, but its specificity is the Berserker/Mardroeme combo.
+									У этой фракции есть баланс Крепкой связи, Сбора и Медиков, но ее особенностью является комбинация Берсерк/Мардроэме.
 								</p>
 							</div>
 						</div>
 					</div>
-					<h4 class = "content-subhead">Custom new factions</h4>
+					<h4 class = "content-subhead">Новые пользовательские фракции</h4>
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_witcher_universe.png" alt = "Witcher Universe Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_witcher_universe.png" alt = "Фракция: Вселенная Ведьмака" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Witcher Universe</div>
+							<div class = "faction-list-name">Вселенная Ведьмака</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									Once per round, the player can skip a round.
+									<b>Способность фракции:</b>
+									Раз за раунд игрок может пропустить ход.
 									<br />
-									This faction has a variety of cards of all kinds, but its specificity is the witchers and their corresponding abilities and signs.
+									У этой фракции есть разнообразные карты всех видов, но ее особенностью являются ведьмаки и соответствующие им способности и знаки.
 								</p>
 							</div>
 						</div>
@@ -928,16 +928,16 @@
 					<br />
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_toussaint.png" alt = "Toussaint Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_toussaint.png" alt = "Фракция: Туссент" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Toussaint</div>
+							<div class = "faction-list-name">Туссент</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									Draw a card from your deck whenever you lose a round.
+									<b>Способность фракции:</b>
+									Возьмите карту из колоды, когда проигрываете раунд.
 									<br />
-									This faction has a balance of Tight Bond, Muster and Scorch units and many strong cards.
+									У этой фракции есть баланс отрядов с Крепкой связью, Сбором и Сожжением, а также много сильных карт.
 								</p>
 							</div>
 						</div>
@@ -945,16 +945,16 @@
 					<br />
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_lyria_rivia.png" alt = "Lyria & Rivia Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_lyria_rivia.png" alt = "Фракция: Лирия и Ривия" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Lyria & Rivia</div>
+							<div class = "faction-list-name">Лирия и Ривия</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									Once per game, apply a Morale Boost to a row of your choice.
+									<b>Способность фракции:</b>
+									Один раз за игру примените Боевой дух к выбранному вами ряду.
 									<br />
-									This faction relies mostly on Muster and Medic cards but also has the specificity of having decoy units and shield special cards.
+									Эта фракция в основном полагается на карты со Сбором и Медиков, но также имеет особенность в виде отрядов-приманок и особых карт-щитов.
 								</p>
 							</div>
 						</div>
@@ -962,16 +962,16 @@
 					<br />
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_syndicate.png" alt = "Syndicate Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_syndicate.png" alt = "Фракция: Синдикат" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Syndicate</div>
+							<div class = "faction-list-name">Синдикат</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									Start the game with the hero Sigi Reuven on the board.
+									<b>Способность фракции:</b>
+									Начните игру с героем Сиги Рёввеном на поле.
 									<br />
-									This faction relies mostly on Spies, Muster and Tight Bond units but also has the specificity of having the Bank special card and some Witch Hunt units.
+									Эта фракция в основном полагается на Шпионов, отряды со Сбором и Крепкой связью, но также имеет особенность в виде особой карты Банк и некоторых отрядов с Охотой на ведьм.
 								</p>
 							</div>
 						</div>
@@ -979,96 +979,96 @@
 					<br />
 					<div class = "pure-g">
 						<div class = "pure-u-1-8">
-							<img class = "pure-img-responsive" src = "images/icons/deck_shield_zerrikania.png" alt = "Zerrikania Faction" />
+							<img class = "pure-img-responsive" src = "images/icons/deck_shield_zerrikania.png" alt = "Фракция: Зеррикания" />
 						</div>
 						<div class = "pure-u-7-8">
-							<div class = "faction-list-name">Zerrikania</div>
+							<div class = "faction-list-name">Зеррикания</div>
 							<div class = "faction-list-description">
 								<p>
-									<b>Faction Ability:</b>
-									Restore a unit card of your choice whenever you lose a round.
+									<b>Способность фракции:</b>
+									Верните карту отряда на ваш выбор, когда проигрываете раунд.
 									<br />
-									This faction brings in some new abilities. On one side the dragon cult has the combination of Whorshippers and Whorshipped units.
+									Эта фракция привносит несколько новых способностей. С одной стороны, культ драконов обладает комбинацией Поклоняющихся и Обожествляемых отрядов.
 									<br />
-									On the other side, Free Warriors have the Inspire ability, allowing them to have the strength of the strongest of them on board.
+									С другой стороны, Свободные Воины обладают способностью Вдохновение, позволяющей им иметь силу сильнейшего из них на поле.
 								</p>
 							</div>
 						</div>
 					</div>
-					<h2 class = "content-subhead" id = "setup">Setup</h2>
-					<h3 class = "content-subhead">Building your deck</h3>
+					<h2 class = "content-subhead" id = "setup">Подготовка</h2>
+					<h3 class = "content-subhead">Составление колоды</h3>
 					<p>
-						To play, each player must chose a faction, a leader and select or prepare a deck of the selected faction.
+						Для игры каждый игрок должен выбрать фракцию, лидера и выбрать или подготовить колоду выбранной фракции.
 						<br />
-						We have prepared a selection of decks which we think are interesting to play and reasonably balanced.
+						Мы подготовили подборку колод, которые, по нашему мнению, интересны для игры и достаточно сбалансированы.
 						<br />
-						However, you can constitute your own, the only rules are the following:
+						Однако вы можете составить свою собственную, единственные правила следующие:
 						<ul>
 							<li>
-								<b>Minumum 22 unit cards</b>
-								(heroes included) from the selected faction or neutral cards.
+								<b>Минимум 22 карты отрядов</b>
+								(включая героев) из выбранной фракции или нейтральные карты.
 							</li>
 							<li>
-								<b>Maximum 10 special cards</b>
+								<b>Максимум 10 особых карт</b>
 							</li>
 						</ul>
 					</p>
 					<p>
-						<b>Tips:</b>
+						<b>Советы:</b>
 						<ul>
 							<li>
-								The more cards you have in your deck, the less likely you are to draw the best cards and make the combos work. Chose wisely, here less is more.
+								Чем больше карт в вашей колоде, тем меньше вероятность, что вы вытянете лучшие карты и заставите комбинации сработать. Выбирайте с умом, здесь меньше значит больше.
 							</li>
 							<li>
-								Hero cards might look powerfull at first, but in the end they are boring and are not the cards that win games because most of them have a limited impact.
-								Consequently, don't take too many of those.
+								Карты-герои могут показаться сильными на первый взгляд, но в итоге они скучны и не являются картами, выигрывающими игры, потому что большинство из них имеют ограниченное влияние.
+								Следовательно, не берите слишком много таких.
 							</li>
 						</ul>
 					</p>
-					<h3 class = "content-subhead">Start</h3>
+					<h3 class = "content-subhead">Начало</h3>
 					<p>
-						A coin toss decides who starts first. Each player shuffles his/her deck and draws 10 cards. Before starting the game, each player can discard up to 2 cards and draw a replacement (aka Mulligan).
+						Подбрасывание монеты решает, кто начинает первым. Каждый игрок тасует свою колоду и берет 10 карт. Перед началом игры каждый игрок может сбросить до 2 карт и взять замену (так называемый Мулллиган).
 						<br />
-						The remaining 10 cards will constitute the starting hand of the players, and most likely all the cards the players will have for the game.
+						Оставшиеся 10 карт составят начальную руку игроков и, скорее всего, все карты, которые будут у игроков на протяжении всей игры.
 					</p>
-					<h3 class = "content-subhead">Rounds</h3>
+					<h3 class = "content-subhead">Раунды</h3>
 					<p>
-						Players take turns either playing a card or using the active ability of their leader or faction (when available).
+						Игроки по очереди либо разыгрывают карту, либо используют активную способность своего лидера или фракции (когда доступно).
 						<br />
-						A player can instead chose to pass and sit out of the rest of the round (not play any hard), while the other player is free to play more cards.
+						Игрок может вместо этого решить пасовать и не участвовать в остатке раунда (не играть карт), в то время как другой игрок может свободно разыгрывать больше карт.
 						<br />
-						When both players have passed or cannot play any other card, the round ends. The player with the lowest total strength loses a round and a life point.
+						Когда оба игрока пасуют или не могут разыграть больше карт, раунд заканчивается. Игрок с наименьшей общей силой проигрывает раунд и теряет одно очко жизни.
 						<br />
-						Each player starts with 2 life points and thus loses the game when losing 2 rounds.
-					</p>
-					<p>
-						Note that in case of a draw, both players have the lowest strength and lose a life point. Unless you play as Nilfgaard (wins in case of draws), this is not a desirable situation.
+						Каждый игрок начинает с 2 очками жизни и, следовательно, проигрывает игру, когда проигрывает 2 раунда.
 					</p>
 					<p>
-						<b>The players that wins the round plays first in the next round.</b>
+						Обратите внимание, что в случае ничьей оба игрока имеют наименьшую силу и теряют очко жизни. Если только вы не играете за Нильфгаард (побеждает в случае ничьей), это нежелательная ситуация.
 					</p>
 					<p>
-						Counting the total score can be really bothersome, good thing that here the computer is doing it for us.
-						<br />
-						But it remains important to understand how it's done in order to anticipate the changes when playing certain cards.
-						<br />
-						Here are the principles to count the scores.
+						<b>Игрок, выигравший раунд, ходит первым в следующем раунде.</b>
 					</p>
 					<p>
-						For each row:
+						Подсчет общего счета может быть очень утомительным, хорошо, что здесь компьютер делает это за нас.
+						<br />
+						Но все же важно понимать, как это делается, чтобы предвидеть изменения при розыгрыше определенных карт.
+						<br />
+						Вот принципы подсчета очков.
+					</p>
+					<p>
+						Для каждого ряда:
 						<ul>
-							<li>Weather effects always apply first, before anything else. They change the base strength of the unit cards.</li>
-							<li>Some rare faction/leader abilities also affect the base strength. Weather takes precedence over them, but if no weather effect is active, apply these changes first.</li>
-							<li>From this point, consider that the strength is calculated from the most specific ability of the card to the more global effects.</li>
-							<li>First we apply the Tight Bond effects.</li>
-							<li>Then we apply the various boosts (Morale, Witcher School, Toussaint Wine etc), which simply add up one another, order does not matter.</li>
-							<li>Last, always last, we apply the row multipler, being the Commander's Horn.</li>
+							<li>Погодные эффекты всегда применяются первыми, прежде всего остального. Они изменяют базовую силу карт отрядов.</li>
+							<li>Некоторые редкие способности фракций/лидеров также влияют на базовую силу. Погода имеет приоритет над ними, но если нет активного погодного эффекта, применяйте эти изменения первыми.</li>
+							<li>С этого момента считайте, что сила рассчитывается от наиболее специфичной способности карты к более глобальным эффектам.</li>
+							<li>Сначала мы применяем эффекты Крепкой связи.</li>
+							<li>Затем мы применяем различные усиления (Боевой дух, Школа Ведьмаков, Туссентское вино и т.д.), которые просто складываются друг с другом, порядок не имеет значения.</li>
+							<li>Последним, всегда последним, мы применяем множитель ряда, то есть Рог командора.</li>
 						</ul>
 					</p>
 					<h3 class = "content-subhead" style = "text-align:center">
-						That's it, now you know everything you need
+						Вот и все, теперь вы знаете все, что нужно
 						<br />
-						to play a round of Gwent!
+						для партии в Гвинт!
 					</h3>
 				</div>
 			</div>
