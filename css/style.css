@@ -129,7 +129,8 @@
 #carousel > :nth-child(1) > :nth-child(3):hover {
 	border:.3vw solid goldenrod;
 	box-shadow:0 0 4vw goldenrod;
-	background-origin:border-box
+	background-origin:border-box;
+	background-size: cover;
 }
 
 #carousel .selection,
@@ -1433,7 +1434,8 @@ div.abs {
 
 #carousel > :nth-child(1) > :nth-child(2n) {
 	width:13.75vw;
-	height:25.9vw
+	height:25.9vw;
+	background-size: cover;
 }
 
 #carousel > :nth-child(1) > :nth-child(2n) .card-large-row {
@@ -1483,7 +1485,8 @@ div.abs {
 #carousel > :nth-child(1) > :nth-child(4n - 3) {
 	width:11.3vw;
 	height:21.3vw;
-	margin:0 2%
+	margin:0 2%;
+	background-size: cover;
 }
 
 #carousel > :nth-child(1) > :nth-child(4n - 3) .card-large-row {
