@@ -28,7 +28,7 @@
 		</div>
 		<div id = "dimensions"></div>
 		<div id = "youtube"></div>
-		<main style = "display:none">
+		<main  id="main-bg"style = "display:none">
 			<section id = "click-background" class = "noclick"></section>
 			<section id = "panel-left" class = "panel">
 				<div id = "leader-op" class = "leader-box">
@@ -267,6 +267,20 @@ var myAudio = document.getElementById("myAudio");
 function togglePlay() {
   return myAudio.paused ? myAudio.play() : myAudio.pause();
 };
+</script>
+		<script type="text/javascript">
+var imgCount = 7;
+        var dir = 'images/';
+        var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
+        var images = new Array
+                images[1] = "board1.jpg",
+                images[2] = "board2.jpg",
+                images[3] = "board3.jpg",
+				images[4] = "board4.jpg",
+				images[5] = "board5.jpg",
+				images[6] = "board6.jpg",
+				images[7] = "board7.jpg",
+        document.getElementById("main-bg").style.backgroundImage = "url(" + dir + images[randomCount] + ")"; 
 </script>
 		<script type = "text/javascript" language = "JavaScript" src = "javascript/cards.js"></script>
 		<script type = "text/javascript" language = "JavaScript" src = "javascript/decks.js"></script>
