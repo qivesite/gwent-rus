@@ -257,8 +257,17 @@
 			<button id = "start-game" class = "start-game_class">Начать</button>
 			<button id = "start-ai-game" class = "start-game_class">Битва ИИ</button>
 		</section>
-		<div id = "toggle-music" class = "center music-customization" style = "display:none">♫</div>
-		 <!-- <script type = "text/javascript" language = "JavaScript" src = "https://www.youtube.com/iframe_api"></script> -->
+		<div onClick="togglePlay()" id = "toggle-music" class = "center music-customization">♫</div>
+		<audio id="myAudio" autoplay>
+        <source src="gwent.mp3">
+        </audio>
+		<script type="text/javascript">
+var myAudio = document.getElementById("myAudio");
+
+function togglePlay() {
+  return myAudio.paused ? myAudio.play() : myAudio.pause();
+};
+</script>
 		<script type = "text/javascript" language = "JavaScript" src = "javascript/cards.js"></script>
 		<script type = "text/javascript" language = "JavaScript" src = "javascript/decks.js"></script>
 		<script type = "text/javascript" language = "JavaScript" src = "javascript/abilities.js"></script>
