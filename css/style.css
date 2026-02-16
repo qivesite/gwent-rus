@@ -1097,11 +1097,30 @@ div.abs {
 }
 
 .deck-options {
-	top:15%
+	top:15%;
 }
 
 #select-deck {
-	left:30%
+	left:30%;
+	position: relative;
+	padding: .2vw;
+    border: none;
+    background: #60b70b;
+    color: #fff;
+    transition: 0.2s;
+    border-radius: .3vw;
+    opacity: 0.8;
+    letter-spacing: 0px;
+    box-shadow: #3c7207 .0vw .2vw .0vw, #000 0px .2vw .2vw;
+	text-decoration: none;
+}
+
+#select-deck:hover {
+  opacity: 1;
+}
+
+#select-deck:active {
+  box-shadow: #264805 .0vw .3vw .0vw, #000 0px .3vw .3vw;
 }
 
 #upload-deck {
