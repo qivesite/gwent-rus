@@ -3880,7 +3880,7 @@ document.onkeydown = function (e) {
 
 window.onload = function() {
 	dimensionar();
-	playingOnline = window.location.href == "https://randompianist.github.io/gwent-classic-v3.1/";
+	playingOnline = window.location.href == "https://qivesite.github.io/gwent-rus/";
 	document.getElementById("load_text").style.display = "none";
 	document.getElementById("button_start").style.display = "inline-block";
 	document.getElementById("deck-customization").style.display = "";
