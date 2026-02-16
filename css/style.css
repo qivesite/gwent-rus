@@ -853,8 +853,7 @@ div.abs {
 
 #pass-button {
 	top:79%;
-	;
-	--bg: #60b70b; !important
+  --bg: #60b70b; !important
   --text-color: #fff;
   position: relative;
   border: none;
@@ -863,18 +862,17 @@ div.abs {
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.2s;
-  border-radius: 5px;
+  border-radius: .3vw;
   opacity: 0.8;
-  letter-spacing: 1px;
-  box-shadow: #3c7207 0px 7px 2px, #000 0px 8px 5px;
-  height: 5%;
+  box-shadow: #3c7207 .0vw .3vw .0vw, #000 0px .3vw .3vw;
+  height: 3.3vw;
 }
 #pass-button:hover {
   opacity: 1;
 }
 
 #pass-button:active {
-  box-shadow: #264805 0px 3px 2px,#000 0px 3px 5px;
+  box-shadow: #264805 .0vw .3vw .0vw, #000 0px .3vw .3vw;
 }
 #button_start {
 	--bg: #60b70b; 
@@ -886,10 +884,9 @@ div.abs {
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.2s;
-  border-radius: 5px;
+  border-radius: .3vw;
   opacity: 0.8;
-  letter-spacing: 1px;
-  box-shadow: #3c7207 0px 7px 2px, #000 0px 8px 5px;
+  box-shadow: #3c7207 .0vw .3vw .0vw, #000 0px .3vw .3vw;
   font-size: 1.8vw;
 }
 #button_start:hover {
@@ -897,7 +894,7 @@ div.abs {
 }
 
 #button_start:active {
-  box-shadow: #264805 0px 3px 2px,#000 0px 3px 5px;
+  box-shadow: #264805 .0vw .3vw .0vw, #000 0px .3vw .3vw;
 }
 
 #giveup-button {
@@ -909,9 +906,9 @@ div.abs {
     color: #fff;
    
     transition: 0.2s;
-    border-radius: 5px;
+    border-radius: .3vw;
     opacity: 0.8;
-    box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;
+    box-shadow: #c0392b #3c7207 .0vw .3vw .0vw, #000 0px .3vw .3vw;
     font-size: .8vw;
     height: 3%;
 }
@@ -921,7 +918,7 @@ div.abs {
 }
 
 #giveup-button:active {
-  box-shadow: #721c13 0px 3px 2px,#000 0px 3px 5px;
+  box-shadow: #721c13 #3c7207 .0vw .3vw .0vw, #000 0px .3vw .3vw;
 }
 
 .field {
@@ -1680,23 +1677,21 @@ div.abs {
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.2s;
-  border-radius: 5px;
+  border-radius: .3vw;
   opacity: 0.8;
-  letter-spacing: 1px;
-  box-shadow: #3c7207 0px 7px 2px, #000 0px 8px 5px;
+  letter-spacing: 0px;
+  box-shadow: #3c7207 .0vw .3vw .0vw, #000 0px .3vw .3vw;
 }
 #start-game:hover {
   opacity: 1;
 }
 
 #start-game:active {
-  box-shadow: #264805 0px 3px 2px,#000 0px 3px 5px;
+  box-shadow: #264805 .0vw .3vw .0vw, #000 0px .3vw .3vw;
 }
 
 #start-ai-game {
 	left:46.2%;
-	width:7%
-		top:86%;
 	left:46.65%;
 	width:6%;
   --bg: #e74c3c; !important
@@ -1707,17 +1702,16 @@ div.abs {
   color:#fff;
   font-weight: bold;
   transition: 0.2s;
-  border-radius: 5px;
+  border-radius: .3vw;
   opacity: 0.8;
-  letter-spacing: 1px;
-  box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;
+  box-shadow: #c0392b .0vw .3vw .0vw, #000 0px .3vw .3vw;
 }
 #start-ai-game:hover {
   opacity: 1;
 }
 
 #start-ai-game:active {
-  box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;
+  box-shadow: #c0392b .0vw .3vw .0vw, #000 0px .3vw .3vw;
 }
 .hero > div:nth-child(1) > div {
 	text-shadow:0 0 .1vw #000
