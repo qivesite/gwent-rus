@@ -1,5 +1,5 @@
 # Классический гвинт в браузере на русском языке-v3.1
-![cover](https://qivesite.github.io/gwent-rus/images/board.jpg)
+![cover](https://qivesite.github.io/gwent-rus/images/preview.jpg)
 
 Браузерная версия оригинальной мини-игры «Гвинт» из игры «Ведьмак 3: Дикая Охота», включающая все карты из дополнений.
 
