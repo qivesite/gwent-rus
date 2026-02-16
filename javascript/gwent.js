@@ -3386,15 +3386,15 @@ class DeckMaker {
 				filename: card_dict[deck["leader"]]["filename"],
 				desc_name: deck["title"],
 				desc: "<p>" +
-						"<b>Faction ability:</b> " +
+						"<b>Способность фракции:</b> " +
 						factions[deck["faction"]]["description"] +
 					"</p>" +
 					"<p>" +
-						"<b>Leader ability:</b> " +
+						"<b>Способность лидера:</b> " +
 						ability_dict[card_dict[deck["leader"]]["ability"]].description + 
 					"</p>" +
 					"<p>" +
-						"<b>Deck description:</b> " +
+						"<b>Описание колоды:</b> " +
 						deck["description"],
 				faction: deck["faction"]
 			};
@@ -3413,11 +3413,11 @@ class DeckMaker {
 		let container = new CardContainer();
 		container.cards = [{
 			abilities: [],
-			name: "Random deck",
+			name: "Случайная колода",
 			row: "faction",
 			filename: "random",
-			desc_name: "Random deck",
-			desc: "A random deck from the pool that will change every game.",
+			desc_name: "Случайная колода",
+			desc: "Случайная колода, будет меняться каждую игру.",
 			faction: "faction"
 		}];
 		container.cards = container.cards.concat(Object.values(premade_deck).map(d => {
@@ -3429,15 +3429,15 @@ class DeckMaker {
 				filename: card_dict[deck["leader"]]["filename"],
 				desc_name: deck["title"],
 				desc: "<p>" +
-						"<b>Faction ability:</b> " +
+						"<b>Способность фракции:</b> " +
 						factions[deck["faction"]]["description"] +
 					"</p>" +
 					"<p>" +
-						"<b>Leader ability:</b> " +
+						"<b>Способность лидера:</b> " +
 						ability_dict[card_dict[deck["leader"]]["ability"]].description + 
 					"</p>" +
 					"<p>" +
-						"<b>Deck description:</b> " +
+						"<b>Описание колоды:</b> " +
 						deck["description"],
 				faction: deck["faction"]
 			};
@@ -3446,7 +3446,7 @@ class DeckMaker {
 			this.op_deck_index = i;
 			if (i === 0) {
 				game.randomOPDeck = true;
-				document.getElementById("op-deck-name").innerHTML = "Random deck";
+				document.getElementById("op-deck-name").innerHTML = "Случайная колода";
 			} else {
 				this.start_op_deck = JSON.parse(JSON.stringify(premade_deck[i - 1]));
 				this.start_op_deck.cards = this.start_op_deck.cards.map(c => ({
