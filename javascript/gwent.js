@@ -3105,7 +3105,7 @@ class DeckMaker {
 			return false;
 		if (!silent) {
 			tocar("warning", false);
-			if (!confirm("Changing factions will clear the current deck. Continue? ")) {
+			if (!confirm("Изменение фракции очистит текущую колоду. Продолжить? ")) {
 				tocar("warning", false);
 				return false;
 			}
