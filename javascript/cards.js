@@ -20,7 +20,7 @@ var default_cards = {
         "quote": "Когда кончаются крестьяне, чучела тоже сгодятся как мишени для стрел."
     },
     "spe_frost": {
-        "name": "Пронизывающий иней",
+        "name": "Мороз",
         "deck": "weather",
         "row": "",
         "strength": "",
@@ -40,7 +40,7 @@ var default_cards = {
         "quote": "Знаешь, когда сказки перестают быть сказками? Когда люди начинают в них верить."
     },
     "spe_clear": {
-        "name": "Ясная погода",
+        "name": "Ясное небо",
         "deck": "weather",
         "row": "",
         "strength": "",
@@ -50,7 +50,7 @@ var default_cards = {
         "quote": "Солнце светит, Дромле! Солнце светит! Может, не всё ещё потеряно..."
     },
     "spe_horn": {
-        "name": "Рог командора",
+        "name": "Командирский рог",
         "deck": "special",
         "row": "",
         "strength": "",
@@ -90,7 +90,7 @@ var default_cards = {
         "quote": "Если это цена спасения мира, пусть этот мир лучше погибнет."
     },
     "spe_fog": {
-        "name": "Непроглядный туман",
+        "name": "Мгла",
         "deck": "weather",
         "row": "",
         "strength": "",
@@ -110,7 +110,7 @@ var default_cards = {
         "quote": "Столпы пламени обращают сильнейших в пепел. Все прочие трепещут в шоке и благоговении."
     },
     "spe_rain": {
-        "name": "Проливной дождь",
+        "name": "Ливень",
         "deck": "weather",
         "row": "",
         "strength": "",
@@ -215,7 +215,7 @@ var default_cards = {
         "quote": "Му-у!"
     },
     "ntr_chort": {
-        "name": "Силы обороны КРС",
+        "name": "Силы обороны коров",
         "deck": "neutral",
         "row": "close",
         "strength": "8",
@@ -235,7 +235,7 @@ var default_cards = {
         "quote": "Это естественно и прекрасно, что мужчина может любить свою сестру."
     },
     "nr_foltest_lord": {
-        "name": "Фольтест — Верховный главнокомандующий Севера",
+        "name": "Фольтест — Предводитель Севера",
         "deck": "realms",
         "row": "leader",
         "strength": "",
@@ -245,7 +245,7 @@ var default_cards = {
         "quote": "К чёрту советников и их интриги. Я доверяю клинкам своих солдат."
     },
     "nr_foltest_siegemaster": {
-        "name": "Фольтест — Осадный мастер",
+        "name": "Фольтест — Завоеватель",
         "deck": "realms",
         "row": "leader",
         "strength": "",
@@ -255,7 +255,7 @@ var default_cards = {
         "quote": "Меткая баллиста не только разрушает стены врага, но и его боевой дух."
     },
     "nr_foltest_steelforged": {
-        "name": "Фольтест — Закалённый сталью",
+        "name": "Фольтест — Железный Владыка",
         "deck": "realms",
         "row": "leader",
         "strength": "",
@@ -285,7 +285,7 @@ var default_cards = {
         "quote": "«Обычно мы даём им женские имена». «Например, Дженни?» «Скорее, Берта»."
     },
     "nr_blue_stripes_1": {
-        "name": "Коммандос «Голубые Полоски»",
+        "name": "Боец синих полосок",
         "id": 1,
         "deck": "realms",
         "row": "close",
@@ -297,7 +297,7 @@ var default_cards = {
         "quote": "Я сделаю всё для Темерии. По большей части, правда, убиваю за неё."
     },
     "nr_blue_stripes_2": {
-        "name": "Коммандос «Голубые Полоски»",
+        "name": "Боец синих полосок",
         "id": 2,
         "deck": "realms",
         "row": "close",
@@ -309,7 +309,7 @@ var default_cards = {
         "quote": "Я сделаю всё для Темерии. По большей части, правда, убиваю за неё."
     },
     "nr_blue_stripes_3": {
-        "name": "Коммандос «Голубые Полоски»",
+        "name": "Боец синих полосок",
         "id": 3,
         "deck": "realms",
         "row": "close",
@@ -345,7 +345,7 @@ var default_cards = {
         "quote": "Боги помогают тем, у кого катапульты лучше."
     },
     "nr_crinfrid_1": {
-        "name": "Охотник на драконов из Кринфрида",
+        "name": "Рубайлы из Кринфрида",
         "id": 1,
         "deck": "realms",
         "row": "ranged",
@@ -357,7 +357,7 @@ var default_cards = {
         "quote": "В последнее время с монстрами не везло, так что мы завербовались."
     },
     "nr_crinfrid_2": {
-        "name": "Охотник на драконов из Кринфрида",
+        "name": "Рубайлы из Кринфрида",
         "id": 2,
         "deck": "realms",
         "row": "ranged",
@@ -369,7 +369,7 @@ var default_cards = {
         "quote": "В последнее время с монстрами не везло, так что мы завербовались."
     },
     "nr_crinfrid_3": {
-        "name": "Охотник на драконов из Кринфрида",
+        "name": "Рубайлы из Кринфрида",
         "id": 3,
         "deck": "realms",
         "row": "ranged",
@@ -391,7 +391,7 @@ var default_cards = {
         "quote": "Однажды я заставил пленника вырвать собственные внутренности... Ах, хорошее было времечко..."
     },
     "nr_banner_nurse": {
-        "name": "Медик хоругви Дун",
+        "name": "Лекарь Бурой Хоругви",
         "deck": "realms",
         "row": "siege",
         "strength": "5",
@@ -411,7 +411,7 @@ var default_cards = {
         "quote": "Как и все мужчины из рода Тиссенов, он был высок, могуч и преступно красив."
     },
     "nr_natalis": {
-        "name": "Йохан Наталис",
+        "name": "Ян Наталис",
         "deck": "realms",
         "row": "close",
         "strength": "10",
@@ -421,7 +421,7 @@ var default_cards = {
         "quote": "Эта площадь должна носить имена моих солдат, павших. Не моё."
     },
     "nr_kaedwen_siege": {
-        "name": "Кедвенинский осадный инженер",
+        "name": "Каэвенский осадной мастер",
         "deck": "realms",
         "row": "siege",
         "strength": "1",
@@ -431,7 +431,7 @@ var default_cards = {
         "quote": "«Нужно перенастроить рычаг на пять градусов». «Чего с чем сделать?»"
     },
     "nr_kaedwen_siege_1": {
-        "name": "Кедвенинский осадный инженер",
+        "name": "Каэвенский осадной мастер",
         "deck": "realms",
         "row": "siege",
         "strength": "1",
@@ -441,7 +441,7 @@ var default_cards = {
         "quote": "«Нужно перенастроить рычаг на пять градусов». «Чего с чем сделать?»"
     },
     "nr_kaedwen_siege_2": {
-        "name": "Кедвенинский осадный инженер",
+        "name": "Каэвенский осадной мастер",
         "deck": "realms",
         "row": "siege",
         "strength": "1",
@@ -451,7 +451,7 @@ var default_cards = {
         "quote": "«Нужно перенастроить рычаг на пять градусов». «Чего с чем сделать?»"
     },
     "nr_keira": {
-        "name": "Кейра Метц",
+        "name": "Кейра Мец",
         "deck": "realms",
         "row": "ranged",
         "strength": "5",
@@ -471,7 +471,7 @@ var default_cards = {
         "quote": "Скоро власть королей иссякнет, и Ложа займёт подобающее ей место."
     },
     "nr_poor_infantry_1": {
-        "name": "Дерьмовая пехота",
+        "name": "Гребаная пехтура",
         "id": 1,
         "deck": "realms",
         "row": "close",
@@ -483,7 +483,7 @@ var default_cards = {
         "quote": "Я ветеран войны!... не подадите грошик?"
     },
     "nr_poor_infantry_2": {
-        "name": "Дерьмовая пехота",
+        "name": "Гребаная пехтура",
         "id": 2,
         "deck": "realms",
         "row": "close",
@@ -495,7 +495,7 @@ var default_cards = {
         "quote": "Я ветеран войны!... не подадите грошик?"
     },
     "nr_poor_infantry_3": {
-        "name": "Дерьмовая пехота",
+        "name": "Гребаная пехтура",
         "id": 3,
         "deck": "realms",
         "row": "close",
@@ -517,7 +517,7 @@ var default_cards = {
         "quote": "На нём золочёные доспехи. Золочёные. Ясное дело, он мудак."
     },
     "nr_redania": {
-        "name": "Реданийский пехотинец",
+        "name": "Реданский пехотинец",
         "deck": "realms",
         "row": "close",
         "strength": "1",
@@ -527,7 +527,7 @@ var default_cards = {
         "quote": "Я истекал кровью за Реданию! Я убивал за Реданию... Чёрт, я даже насиловал за Реданию!"
     },
     "nr_redania_1": {
-        "name": "Реданийский пехотинец",
+        "name": "Реданский пехотинец",
         "deck": "realms",
         "row": "close",
         "strength": "1",
@@ -577,7 +577,7 @@ var default_cards = {
         "quote": "Гвинт — как политика, только честнее."
     },
     "nr_sheala": {
-        "name": "Силе де Тансарвиль",
+        "name": "Шеала де Тансервиль",
         "deck": "realms",
         "row": "ranged",
         "strength": "5",
@@ -597,7 +597,7 @@ var default_cards = {
         "quote": "Пошли вы! Мы ж не все бабники хреновы. У некоторых душа глубокая есть..."
     },
     "nr_sabrina": {
-        "name": "Сабина Глевиссиг",
+        "name": "Сабрина Глевиссиг",
         "deck": "realms",
         "row": "ranged",
         "strength": "4",
@@ -707,7 +707,7 @@ var default_cards = {
         "quote": "Императоры командуют многими, но не могут управлять двумя вещами: своим временем и своим сердцем."
     },
     "ne_albrich": {
-        "name": "Альбрих",
+        "name": "Альбрых",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "2",
@@ -717,7 +717,7 @@ var default_cards = {
         "quote": "Огненный шар? Конечно. Чего бы ни пожелало Ваше Императорское Величество."
     },
     "ne_assire": {
-        "name": "Ассире вар Анагид",
+        "name": "Ассире вар Анагыд",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "6",
@@ -727,7 +727,7 @@ var default_cards = {
         "quote": "У нильфгаардских магов действительно есть выбор: рабское подчинение или виселица."
     },
     "ne_black_archer": {
-        "name": "Чёрный пеший лучник",
+        "name": "Лучник бурой хоругви",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "10",
@@ -737,7 +737,7 @@ var default_cards = {
         "quote": "Целюсь в колено. Всегда."
     },
     "ne_black_archer_1": {
-        "name": "Чёрный пеший лучник",
+        "name": "Лучник бурой хоругви",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "10",
@@ -747,7 +747,7 @@ var default_cards = {
         "quote": "Целюсь в колено. Всегда."
     },
     "ne_cahir": {
-        "name": "Кагыр Маур Дюффин аэп Кеаллах",
+        "name": "Кагыр Маур аэп Кеаллах",
         "deck": "nilfgaard",
         "row": "close",
         "strength": "6",
@@ -767,7 +767,7 @@ var default_cards = {
         "quote": "Таланты Цинтии могут быть смертоносны. Её нужно держать на коротком поводке."
     },
     "ne_archer_support": {
-        "name": "Вспомогательные лучники Этолии",
+        "name": "Лучная поддержка",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "1",
@@ -777,7 +777,7 @@ var default_cards = {
         "quote": "Двойная ставка или ничего, целься ему в член."
     },
     "ne_archer_support_1": {
-        "name": "Вспомогательные лучники Этолии",
+        "name": "Лучная поддержка",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "1",
@@ -797,7 +797,7 @@ var default_cards = {
         "quote": "Магия — высшее благо. Она преодолевает все границы и разделения."
     },
     "ne_heavy_zerri": {
-        "name": "Тяжёлый Зерриканский Огненный Скорпион",
+        "name": "Большой огненный скорпион",
         "deck": "nilfgaard",
         "row": "siege",
         "strength": "10",
@@ -807,7 +807,7 @@ var default_cards = {
         "quote": "Не лучший для взятия городов, но отлично сносит их с лица земли."
     },
     "ne_impera_brigade_1": {
-        "name": "Гвардеец бригады «Импера»",
+        "name": "Бригада «Импера»",
         "id": 1,
         "deck": "nilfgaard",
         "row": "close",
@@ -819,7 +819,7 @@ var default_cards = {
         "quote": "Бригада «Импера» никогда не сдаётся. Никогда."
     },
     "ne_impera_brigade_2": {
-        "name": "Гвардеец бригады «Импера»",
+        "name": "Бригада «Импера»",
         "id": 2,
         "deck": "nilfgaard",
         "row": "close",
@@ -831,7 +831,7 @@ var default_cards = {
         "quote": "Бригада «Импера» никогда не сдаётся. Никогда."
     },
     "ne_impera_brigade_3": {
-        "name": "Гвардеец бригады «Импера»",
+        "name": "Бригада «Импера»",
         "id": 3,
         "deck": "nilfgaard",
         "row": "close",
@@ -843,7 +843,7 @@ var default_cards = {
         "quote": "Бригада «Импера» никогда не сдаётся. Никогда."
     },
     "ne_impera_brigade_4": {
-        "name": "Гвардеец бригады «Импера»",
+        "name": "Бригада «Импера»",
         "id": 4,
         "deck": "nilfgaard",
         "row": "close",
@@ -865,7 +865,7 @@ var default_cards = {
         "quote": "Ведьмаки не умирают в постелях."
     },
     "ne_menno": {
-        "name": "Менно Кугерхорн",
+        "name": "Менно Коегоорн",
         "deck": "nilfgaard",
         "row": "close",
         "strength": "10",
@@ -885,7 +885,7 @@ var default_cards = {
         "quote": "Ни северные копейщики, ни гномьи копьеносцы не могут надеяться победить обученную кавалерию."
     },
     "ne_moorvran": {
-        "name": "Морвран Вурхис",
+        "name": "Морвран Воорхис",
         "deck": "nilfgaard",
         "row": "siege",
         "strength": "10",
@@ -895,7 +895,7 @@ var default_cards = {
         "quote": "Летнее солнце, отражающееся в тихих водах Альбы — вот что для меня Нильфгаард."
     },
     "ne_nauzicaa_1": {
-        "name": "Всадник кавалерии Наузикаа",
+        "name": "Кавалерия «Наузикаа»",
         "id": 1,
         "deck": "nilfgaard",
         "row": "close",
@@ -907,7 +907,7 @@ var default_cards = {
         "quote": "Император научит Север дисциплине."
     },
     "ne_nauzicaa_2": {
-        "name": "Всадник кавалерии Наузикаа",
+        "name": "Кавалерия «Наузикаа»",
         "id": 2,
         "deck": "nilfgaard",
         "row": "close",
@@ -919,7 +919,7 @@ var default_cards = {
         "quote": "Император научит Север дисциплине."
     },
     "ne_nauzicaa_3": {
-        "name": "Всадник кавалерии Наузикаа",
+        "name": "Кавалерия «Наузикаа»",
         "id": 3,
         "deck": "nilfgaard",
         "row": "close",
@@ -931,7 +931,7 @@ var default_cards = {
         "quote": "Император научит Север дисциплине."
     },
     "ne_puttkammer": {
-        "name": "Путткамер",
+        "name": "Путткаммер",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "3",
@@ -941,7 +941,7 @@ var default_cards = {
         "quote": "Многому научился в военной академии Брайбанта. Например, чистить картошку."
     },
     "ne_rainfarn": {
-        "name": "Рейнфарн",
+        "name": "Раинфарн",
         "deck": "nilfgaard",
         "row": "close",
         "strength": "4",
@@ -961,7 +961,7 @@ var default_cards = {
         "quote": "Говорят, «Импера» ничего не боится. Неправда. Ренуальд пугает их до усрачки."
     },
     "ne_rotten": {
-        "name": "Гнилой мангонель",
+        "name": "Сгнившая петрария",
         "deck": "nilfgaard",
         "row": "siege",
         "strength": "3",
@@ -971,7 +971,7 @@ var default_cards = {
         "quote": "Гнилостный запах возвращает в детство."
     },
     "ne_shilard": {
-        "name": "Шилард Фиц-Эстерлен",
+        "name": "Шилярд Фиц-Остерлен",
         "deck": "nilfgaard",
         "row": "close",
         "strength": "7",
@@ -981,7 +981,7 @@ var default_cards = {
         "quote": "Война — всего лишь шум и ярость — настоящую историю творит дипломатия."
     },
     "ne_siege_engineer": {
-        "name": "Осадный инженер",
+        "name": "Сапёр",
         "deck": "nilfgaard",
         "row": "siege",
         "strength": "6",
@@ -991,7 +991,7 @@ var default_cards = {
         "quote": "При правильном обращении транспортир может стать смертельным оружием."
     },
     "ne_siege_support": {
-        "name": "Осадный техник",
+        "name": "Осадная поддержка",
         "deck": "nilfgaard",
         "row": "siege",
         "strength": "0",
@@ -1021,7 +1021,7 @@ var default_cards = {
         "quote": "И руки прочь от девчонки! Чем бы мы ни были, мы не дикари."
     },
     "ne_tibor": {
-        "name": "Тибор Эггебрехт",
+        "name": "Тибор Эггебрахт",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "10",
@@ -1031,7 +1031,7 @@ var default_cards = {
         "quote": "Альба-а-а! Вперёд!! Альба! Да здравствует Император!"
     },
     "ne_vanhemar": {
-        "name": "Ванхемар",
+        "name": "Вангемар",
         "deck": "nilfgaard",
         "row": "ranged",
         "strength": "4",
@@ -1051,7 +1051,7 @@ var default_cards = {
         "quote": "Не было ещё проблемы, которую нельзя было бы решить хорошо спланированным убийством."
     },
     "ne_vreemde": {
-        "name": "Времд",
+        "name": "Вреемде",
         "deck": "nilfgaard",
         "row": "close",
         "strength": "7",
@@ -1061,7 +1061,7 @@ var default_cards = {
         "quote": "Дисциплина — самое смертоносное оружие Империи."
     },
     "ne_young_emissary_1": {
-        "name": "Юный эмиссар",
+        "name": "Молодой посланник",
         "id": 1,
         "deck": "nilfgaard",
         "row": "close",
@@ -1073,7 +1073,7 @@ var default_cards = {
         "quote": "Если я хорошо себя покажу, возможно, в следующий раз меня отправят куда-нибудь поближе к цивилизации."
     },
     "ne_young_emissary_2": {
-        "name": "Юный эмиссар",
+        "name": "Молодой посланник",
         "id": 2,
         "deck": "nilfgaard",
         "row": "close",
@@ -1085,7 +1085,7 @@ var default_cards = {
         "quote": "Если я хорошо себя покажу, возможно, в следующий раз меня отправят куда-нибудь поближе к цивилизации."
     },
     "ne_zerri": {
-        "name": "Зерриканский Огненный Скорпион",
+        "name": "Огненный скорпион",
         "deck": "nilfgaard",
         "row": "siege",
         "strength": "5",
@@ -1095,7 +1095,7 @@ var default_cards = {
         "quote": "Зерриканская пустыня когда-то была цветущим садом. А потом появились они."
     },
     "mo_eredin_commander": {
-        "name": "Эредин — Командир Красных Всадников",
+        "name": "Эредин Бреакк Глас — Король Aen Elle",
         "deck": "monsters",
         "row": "leader",
         "strength": "",
@@ -1105,7 +1105,7 @@ var default_cards = {
         "quote": "Давай. Покажи мне свои пируэты, финты и прыжки. Я хочу посмотреть."
     },
     "mo_eredin_bringer_of_death": {
-        "name": "Эредин — Вестник Смерти",
+        "name": "Эредин Бреакк Глас — Владыка Тир на Лиа",
         "deck": "monsters",
         "row": "leader",
         "strength": "",
@@ -1115,7 +1115,7 @@ var default_cards = {
         "quote": "Это неизбежно."
     },
     "mo_eredin_destroyer": {
-        "name": "Эредин — Разрушитель Миров",
+        "name": "Эредин Бреакк Глас — Убийца Оберона",
         "deck": "monsters",
         "row": "leader",
         "strength": "",
@@ -1125,7 +1125,7 @@ var default_cards = {
         "quote": "Я долго этого ждал..."
     },
     "mo_eredin_king": {
-        "name": "Эредин — Король Дикой Охоты",
+        "name": "Эредин Бреакк Глас — Командир Дикой Охоты",
         "deck": "monsters",
         "row": "leader",
         "strength": "",
@@ -1145,7 +1145,7 @@ var default_cards = {
         "quote": "Мне это нравится. Ты — моя игрушка."
     },
     "mo_arachas": {
-        "name": "Арахиса",
+        "name": "Главоглаз",
         "id": 1,
         "deck": "monsters",
         "row": "close",
@@ -1157,7 +1157,7 @@ var default_cards = {
         "quote": "Уродство — способ природы сказать: «Держись подальше, твою мать»."
     },
     "mo_arachas_1": {
-        "name": "Арахиса",
+        "name": "Главоглаз",
         "id": 2,
         "deck": "monsters",
         "row": "close",
@@ -1169,7 +1169,7 @@ var default_cards = {
         "quote": "Уродство — способ природы сказать: «Держись подальше, твою мать»."
     },
     "mo_arachas_2": {
-        "name": "Арахиса",
+        "name": "Главоглаз",
         "id": 3,
         "deck": "monsters",
         "row": "close",
@@ -1181,7 +1181,7 @@ var default_cards = {
         "quote": "Уродство — способ природы сказать: «Держись подальше, твою мать»."
     },
     "mo_arachas_behemoth": {
-        "name": "Арахиса-Бегемот",
+        "name": "Огромный главоглаз",
         "id": 4,
         "deck": "monsters",
         "row": "siege",
@@ -1193,7 +1193,7 @@ var default_cards = {
         "quote": "Помесь краба, паука... и грёбаной горы."
     },
     "mo_botchling": {
-        "name": "Блох",
+        "name": "Игоша",
         "deck": "monsters",
         "row": "close",
         "strength": "4",
@@ -1214,7 +1214,7 @@ var default_cards = {
         "quote": "Обычные гарпии питаются падалью. Гарпии Келено... они питаются мечтами."
     },
     "mo_cockatrice": {
-        "name": "Кокатрикс",
+        "name": "Василиск",
         "deck": "monsters",
         "row": "ranged",
         "strength": "2",
@@ -1224,7 +1224,7 @@ var default_cards = {
         "quote": "Вылупился из яйца, снесённого петухом... если верить этим крестьянским бредням."
     },
     "mo_witch_velen": {
-        "name": "Веда — Мать Пьяница",
+        "name": "Ведьма: Кухарка",
         "id": 1,
         "deck": "monsters",
         "row": "close",
@@ -1236,7 +1236,7 @@ var default_cards = {
         "quote": "Мы тебя порежем, парень. Хороший бульон из тебя выйдет."
     },
     "mo_witch_velen_1": {
-        "name": "Веда — Ткачиха",
+        "name": "Ведьма: Пряха",
         "id": 2,
         "deck": "monsters",
         "row": "close",
@@ -1248,7 +1248,7 @@ var default_cards = {
         "quote": "Я чувствую твою боль. Я вижу твой страх..."
     },
     "mo_witch_velen_2": {
-        "name": "Веда — Шептунья",
+        "name": "Введьма: Шептунья",
         "id": 3,
         "deck": "monsters",
         "row": "close",
@@ -1270,7 +1270,7 @@ var default_cards = {
         "quote": "Некоторые не могут смириться с поражением. Некоторые продолжают сражаться и после смерти."
     },
     "mo_earth_elemental": {
-        "name": "Земляной элементаль",
+        "name": "Элементаль земли",
         "deck": "monsters",
         "row": "siege",
         "strength": "6",
@@ -1290,7 +1290,7 @@ var default_cards = {
         "quote": "Гнездо! Надо уничтожить гнездо, иначе эта тварь будет всё лезть и лезть!"
     },
     "mo_fiend": {
-        "name": "Игольница",
+        "name": "Бес",
         "deck": "monsters",
         "row": "close",
         "strength": "6",
@@ -1300,7 +1300,7 @@ var default_cards = {
         "quote": "Игольница похожа на оленя. На огромного, злобного оленя."
     },
     "mo_fire_elemental": {
-        "name": "Огненный элементаль",
+        "name": "Элементаль огня",
         "deck": "monsters",
         "row": "siege",
         "strength": "6",
@@ -1330,7 +1330,7 @@ var default_cards = {
         "quote": "Вилохвост... Тьфу! У этих ублюдков хвосты больше на тесаки похожи."
     },
     "mo_frightener": {
-        "name": "Пугало",
+        "name": "Пугач",
         "deck": "monsters",
         "row": "close",
         "strength": "5",
@@ -1386,7 +1386,7 @@ var default_cards = {
         "quote": "Если гули — часть Круга Жизни... то это чертовски жестокий круг."
     },
     "mo_gravehag": {
-        "name": "Могильная баба",
+        "name": "Кладбищенская баба",
         "deck": "monsters",
         "row": "ranged",
         "strength": "5",
@@ -1436,7 +1436,7 @@ var default_cards = {
         "quote": "Ладд нахв! Убить их! Устелить землю их требухой!"
     },
     "mo_kayran": {
-        "name": "Кайран",
+        "name": "Кейран",
         "deck": "monsters",
         "row": "agile",
         "strength": "8",
@@ -1456,7 +1456,7 @@ var default_cards = {
         "quote": "Мы никогда не охотимся в этих лесах. Даже если вся деревня вымрет с голоду."
     },
     "mo_nekker": {
-        "name": "Неккер",
+        "name": "Накер",
         "id": 1,
         "deck": "monsters",
         "row": "close",
@@ -1468,7 +1468,7 @@ var default_cards = {
         "quote": "Чёрт, они почти милые, если забыть про то, что они — безжалостные убийцы."
     },
     "mo_nekker_1": {
-        "name": "Неккер",
+        "name": "Накер",
         "id": 1,
         "deck": "monsters",
         "row": "close",
@@ -1480,7 +1480,7 @@ var default_cards = {
         "quote": "Чёрт, они почти милые, если забыть про то, что они — безжалостные убийцы."
     },
     "mo_nekker_2": {
-        "name": "Неккер",
+        "name": "Накер",
         "id": 3,
         "deck": "monsters",
         "row": "close",
@@ -1492,7 +1492,7 @@ var default_cards = {
         "quote": "Чёрт, они почти милые, если забыть про то, что они — безжалостные убийцы."
     },
     "mo_mighty_maiden": {
-        "name": "Чумная дева",
+        "name": "Моровая дева",
         "deck": "monsters",
         "row": "close",
         "strength": "5",
@@ -1502,7 +1502,7 @@ var default_cards = {
         "quote": "Больные бредят о покрытой гнойниками женщине в окружении полчищ бешеных крыс..."
     },
     "mo_bruxa": {
-        "name": "Вампир — Брукса",
+        "name": "Вампиры: брукса",
         "id": 1,
         "deck": "monsters",
         "row": "close",
@@ -1514,7 +1514,7 @@ var default_cards = {
         "quote": "Мерзкая, кровожадная, пожирающая людей карга. Вроде моей тёщи."
     },
     "mo_ekkima": {
-        "name": "Вампир — Экимма",
+        "name": "Вампиры: экимма",
         "id": 2,
         "deck": "monsters",
         "row": "close",
@@ -1526,7 +1526,7 @@ var default_cards = {
         "quote": "Кто бы мог подумать, что переростки-летучие мыши неравнодушны к дешёвым побрякушкам?"
     },
     "mo_fleder": {
-        "name": "Вампир — Фледер",
+        "name": "Вампиры: фледер",
         "id": 3,
         "deck": "monsters",
         "row": "close",
@@ -1538,7 +1538,7 @@ var default_cards = {
         "quote": "Высшие вампиры обнимают свои жертвы. Фледеры разрывают их в клочья."
     },
     "mo_garkain": {
-        "name": "Вампир — Гаркаин",
+        "name": "Вампиры: гаркаин",
         "id": 4,
         "deck": "monsters",
         "row": "close",
@@ -1550,7 +1550,7 @@ var default_cards = {
         "quote": "Кровопийцы и трупоеды, настолько отвратительные, что одно их уродство парализует врагов."
     },
     "mo_katakan": {
-        "name": "Вампир — Катакан",
+        "name": "Вампиры: катакан",
         "id": 5,
         "deck": "monsters",
         "row": "close",
@@ -1562,7 +1562,7 @@ var default_cards = {
         "quote": "Пьют кровь Континента со времён Сопряжения Сфер."
     },
     "mo_werewolf": {
-        "name": "Оборотень",
+        "name": "Волколак",
         "deck": "monsters",
         "row": "close",
         "strength": "5",
@@ -1582,7 +1582,7 @@ var default_cards = {
         "quote": "Представьте помесь крылатой змеи и кошмара. Виверны ещё хуже."
     },
     "mo_toad": {
-        "name": "Жаба",
+        "name": "Принц-жаба",
         "deck": "monsters",
         "row": "ranged",
         "strength": "7",
@@ -1602,7 +1602,7 @@ var default_cards = {
         "quote": "Пепел удобрит почву. К весне долина вновь расцветёт."
     },
     "sc_francesca_beautiful": {
-        "name": "Францеска Финдабаир — Прекрасная",
+        "name": "Францеска Финдабаир — Прекраснейшая",
         "deck": "scoiatael",
         "row": "leader",
         "strength": "",
@@ -1612,7 +1612,7 @@ var default_cards = {
         "quote": "Старшие Народы забыли больше, чем люди когда-либо смогут узнать."
     },
     "sc_francesca_daisy": {
-        "name": "Францеска Финдабаир — Маргаритка Долины",
+        "name": "Францеска Финдабаир — Маргаритка из Долин",
         "deck": "scoiatael",
         "row": "leader",
         "strength": "",
@@ -1622,7 +1622,7 @@ var default_cards = {
         "quote": "Не позволяй моей красоте отвлекать тебя от прицела."
     },
     "sc_francesca_pureblood": {
-        "name": "Францеска Финдабаир — Чистокровная Эльфка",
+        "name": "Францеска Финдабаир — Истинная эльфка",
         "deck": "scoiatael",
         "row": "leader",
         "strength": "",
@@ -1642,7 +1642,7 @@ var default_cards = {
         "quote": "Дэдэ сиан каэнте, Эн Сейдхе эн'алланэ аэль кёдэн..."
     },
     "sc_ciaran": {
-        "name": "Киаран аэп Эасниллиен",
+        "name": "Киаран аэп Эасниллен",
         "deck": "scoiatael",
         "row": "agile",
         "strength": "3",
@@ -1672,7 +1672,7 @@ var default_cards = {
         "quote": "Я умею выполнять приказы, так что можешь засунуть свои советы себе в топку."
     },
     "sc_dol_archer": {
-        "name": "Лучница Дол Блатанны",
+        "name": "Лучник из Дол Блатанны",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "4",
@@ -1682,7 +1682,7 @@ var default_cards = {
         "quote": "Сделай ещё шаг, д'ойне. Со стрелой меж глаз ты будешь выглядеть лучше."
     },
     "sc_dol_infantry": {
-        "name": "Разведчица Дол Блатанны",
+        "name": "Следопыт из Дол Блатанны",
         "deck": "scoiatael",
         "row": "agile",
         "strength": "6",
@@ -1692,7 +1692,7 @@ var default_cards = {
         "quote": "Выслеживают как гончие, бегают как олени и убивают как хладнокровные ублюдки."
     },
     "sc_dol_infantry_1": {
-        "name": "Разведчица Дол Блатанны",
+        "name": "Следопыт из Дол Блатанны",
         "deck": "scoiatael",
         "row": "agile",
         "strength": "6",
@@ -1702,7 +1702,7 @@ var default_cards = {
         "quote": "Выслеживают как гончие, бегают как олени и убивают как хладнокровные ублюдки."
     },
     "sc_dol_infantry_2": {
-        "name": "Разведчица Дол Блатанны",
+        "name": "Следопыт из Дол Блатанны",
         "deck": "scoiatael",
         "row": "agile",
         "strength": "6",
@@ -1712,7 +1712,7 @@ var default_cards = {
         "quote": "Выслеживают как гончие, бегают как олени и убивают как хладнокровные ублюдки."
     },
     "sc_dwarf": {
-        "name": "Гном-застрельщик",
+        "name": "Краснолюд-застрельщик",
         "id": 1,
         "deck": "scoiatael",
         "row": "close",
@@ -1724,7 +1724,7 @@ var default_cards = {
         "quote": "Всю жизнь работал кайлом. С боевым топором тоже проблем не будет."
     },
     "sc_dwarf_1": {
-        "name": "Гном-застрельщик",
+        "name": "Краснолюд-застрельщик",
         "id": 2,
         "deck": "scoiatael",
         "row": "close",
@@ -1736,7 +1736,7 @@ var default_cards = {
         "quote": "Всю жизнь работал кайлом. С боевым топором тоже проблем не будет."
     },
     "sc_dwarf_2": {
-        "name": "Гном-застрельщик",
+        "name": "Краснолюд-застрельщик",
         "id": 3,
         "deck": "scoiatael",
         "row": "close",
@@ -1748,7 +1748,7 @@ var default_cards = {
         "quote": "Всю жизнь работал кайлом. С боевым топором тоже проблем не будет."
     },
     "sc_eithne": {
-        "name": "Эйтне",
+        "name": "Эитнэ",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "10",
@@ -1758,7 +1758,7 @@ var default_cards = {
         "quote": "У королевы дриад глаза из расплавленного серебра и сердце из холодной кованой стали."
     },
     "sc_elf_skirmisher": {
-        "name": "Эльфийский застрельщик",
+        "name": "Эльфский застрельщик",
         "id": 1,
         "deck": "scoiatael",
         "row": "ranged",
@@ -1770,7 +1770,7 @@ var default_cards = {
         "quote": "Что бы вы ни слышали, эльфы не снимают скальпы с людей. Слишком много вшей."
     },
     "sc_elf_skirmisher_1": {
-        "name": "Эльфийский застрельщик",
+        "name": "Эльфский застрельщик",
         "id": 2,
         "deck": "scoiatael",
         "row": "ranged",
@@ -1782,7 +1782,7 @@ var default_cards = {
         "quote": "Что бы вы ни слышали, эльфы не снимают скальпы с людей. Слишком много вшей."
     },
     "sc_elf_skirmisher_2": {
-        "name": "Эльфийский застрельщик",
+        "name": "Эльфский застрельщик",
         "id": 3,
         "deck": "scoiatael",
         "row": "ranged",
@@ -1794,7 +1794,7 @@ var default_cards = {
         "quote": "Что бы вы ни слышали, эльфы не снимают скальпы с людей. Слишком много вшей."
     },
     "sc_filavandrel": {
-        "name": "Филавандрель аэн Фидаиль",
+        "name": "Филавандрель",
         "deck": "scoiatael",
         "row": "agile",
         "strength": "6",
@@ -1804,7 +1804,7 @@ var default_cards = {
         "quote": "Хотя нас теперь мало и мы рассеяны, наши сердца горят ярче прежнего."
     },
     "sc_havekar_nurse": {
-        "name": "Хавекарская целительница",
+        "name": "Лекарь-гавенкар",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "0",
@@ -1814,7 +1814,7 @@ var default_cards = {
         "quote": "Конечно, я тебя подлатаю. Но это будет стоить денег."
     },
     "sc_havekar_nurse_1": {
-        "name": "Хавекарская целительница",
+        "name": "Лекарь-гавенкар",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "0",
@@ -1824,7 +1824,7 @@ var default_cards = {
         "quote": "Конечно, я тебя подлатаю. Но это будет стоить денег."
     },
     "sc_havekar_nurse_2": {
-        "name": "Хавекарская целительница",
+        "name": "Лекарь-гавенкар",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "0",
@@ -1834,7 +1834,7 @@ var default_cards = {
         "quote": "Конечно, я тебя подлатаю. Но это будет стоить денег."
     },
     "sc_havekar_support": {
-        "name": "Хавекарский контрабандист",
+        "name": "Поддержка гавенкаров",
         "id": 1,
         "deck": "scoiatael",
         "row": "close",
@@ -1846,7 +1846,7 @@ var default_cards = {
         "quote": "Я воюю за того, кто лучше платит. Или кого легче ограбить."
     },
     "sc_havekar_support_1": {
-        "name": "Хавекарский контрабандист",
+        "name": "Поддержка гавенкаров",
         "id": 2,
         "deck": "scoiatael",
         "row": "close",
@@ -1858,7 +1858,7 @@ var default_cards = {
         "quote": "Я воюю за того, кто лучше платит. Или кого легче ограбить."
     },
     "sc_havekar_support_2": {
-        "name": "Хавекарский контрабандист",
+        "name": "Поддержка гавенкаров",
         "id": 3,
         "deck": "scoiatael",
         "row": "close",
@@ -1870,7 +1870,7 @@ var default_cards = {
         "quote": "Я воюю за того, кто лучше платит. Или кого легче ограбить."
     },
     "sc_ida": {
-        "name": "Ида Эмиан аэп Сивни",
+        "name": "Ида Эмеан",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "6",
@@ -1880,7 +1880,7 @@ var default_cards = {
         "quote": "Я — Мудрая. Моя сила в обладании знанием. А не в том, чтобы им делиться."
     },
     "sc_iorveth": {
-        "name": "Йорвет",
+        "name": "Иорвет",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "10",
@@ -1900,7 +1900,7 @@ var default_cards = {
         "quote": "До них доходит, когда они замечают мой шрам: осознание близкой смерти."
     },
     "sc_mahakam": {
-        "name": "Защитник Махакама",
+        "name": "Махакамские добровольцы",
         "deck": "scoiatael",
         "row": "close",
         "strength": "5",
@@ -1910,7 +1910,7 @@ var default_cards = {
         "quote": "Говорю вам, мы рождены для битвы — мы рубим прямо по их коленям!"
     },
     "sc_mahakam_1": {
-        "name": "Защитник Махакама",
+        "name": "Махакамские добровольцы",
         "deck": "scoiatael",
         "row": "close",
         "strength": "5",
@@ -1920,7 +1920,7 @@ var default_cards = {
         "quote": "Говорю вам, мы рождены для битвы — мы рубим прямо по их коленям!"
     },
     "sc_mahakam_2": {
-        "name": "Защитник Махакама",
+        "name": "Махакамские добровольцы",
         "deck": "scoiatael",
         "row": "close",
         "strength": "5",
@@ -1930,7 +1930,7 @@ var default_cards = {
         "quote": "Говорю вам, мы рождены для битвы — мы рубим прямо по их коленям!"
     },
     "sc_mahakam_3": {
-        "name": "Защитник Махакама",
+        "name": "Махакамские добровольцы",
         "deck": "scoiatael",
         "row": "close",
         "strength": "5",
@@ -1940,7 +1940,7 @@ var default_cards = {
         "quote": "Говорю вам, мы рождены для битвы — мы рубим прямо по их коленям!"
     },
     "sc_mahakam_4": {
-        "name": "Защитник Махакама",
+        "name": "Махакамские добровольцы",
         "deck": "scoiatael",
         "row": "close",
         "strength": "5",
@@ -1960,7 +1960,7 @@ var default_cards = {
         "quote": "С каждой выпущенной стрелой я думаю о своём отце. Он бы гордился. Наверное."
     },
     "sc_riordain": {
-        "name": "Риордан",
+        "name": "Риордаин",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "1",
@@ -1970,7 +1970,7 @@ var default_cards = {
         "quote": "Смотри им в глаза, наслаждайся их ужасом. А потом иди на убийство."
     },
     "sc_saskia": {
-        "name": "Сазентессис",
+        "name": "Саэсентессис",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "10",
@@ -1980,7 +1980,7 @@ var default_cards = {
         "quote": "Прекрасная, чистая, свирепая — идеальный символ для восстания."
     },
     "sc_toruviel": {
-        "name": "Торувиэль",
+        "name": "Торувьель",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "2",
@@ -1990,7 +1990,7 @@ var default_cards = {
         "quote": "Я бы с удовольствием убила тебя вблизи, глядя в глаза... Но от тебя воняет, человек."
     },
     "sc_vrihedd_cadet": {
-        "name": "Новобранец бригады «Врихедд»",
+        "name": "Кадет «Врихедда»",
         "deck": "scoiatael",
         "row": "ranged",
         "strength": "4",
@@ -2000,7 +2000,7 @@ var default_cards = {
         "quote": "Ненависть горит ярче любого огня и разит острее любого клинка."
     },
     "sc_vrihedd_brigade": {
-        "name": "Ветеран бригады «Врихедд»",
+        "name": "Бригада «Врихедд»",
         "deck": "scoiatael",
         "row": "agile",
         "strength": "5",
@@ -2010,7 +2010,7 @@ var default_cards = {
         "quote": "«Врихедд? А это что значит?» «Неприятности»."
     },
     "sc_vrihedd_brigade_1": {
-        "name": "Ветеран бригады «Врихедд»",
+        "name": "Бригада «Врихедд»",
         "deck": "scoiatael",
         "row": "agile",
         "strength": "5",
