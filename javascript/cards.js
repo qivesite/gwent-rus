@@ -215,7 +215,7 @@ var default_cards = {
         "quote": "Му-у!"
     },
     "ntr_chort": {
-        "name": "Силы обороны коров",
+        "name": "Рогатое сопротивление",
         "deck": "neutral",
         "row": "close",
         "strength": "8",
@@ -604,7 +604,7 @@ var default_cards = {
         "ability": "",
         "filename": "sabrina",
         "count": "1",
-        "quote": "Дочь Кедвенинской глуши."
+        "quote": "Дочь Каэдвенской глуши."
     },
     "nr_vernon": {
         "name": "Вернон Роше",
@@ -2051,7 +2051,7 @@ var default_cards = {
         "quote": "У Скеллиге должен быть сильный король. Неважно, какой ценой."
     },
     "sk_blueboy": {
-        "name": "Синеглазый Люгос",
+        "name": "Лугос Синий",
         "deck": "skellige",
         "row": "close",
         "strength": "6",
@@ -2061,7 +2061,7 @@ var default_cards = {
         "quote": "Я уже почти готов блевать от скуки."
     },
     "sk_cerys": {
-        "name": "Церис",
+        "name": "Керис",
         "id": 4,
         "deck": "skellige",
         "row": "close",
@@ -2083,7 +2083,7 @@ var default_cards = {
         "quote": "Значит, ты можешь попасть в движущуюся цель на двухстах шагах? Я тоже. В бурю."
     },
     "sk_dimun_pirate": {
-        "name": "Пират клана Димун",
+        "name": "Пират из клана Димун",
         "deck": "skellige",
         "row": "ranged",
         "strength": "6",
@@ -2093,7 +2093,7 @@ var default_cards = {
         "quote": "Вижу страх в их глазах. Страх передо мной... перед кланом Димун!"
     },
     "sk_shield_maiden_1": {
-        "name": "Девка-щитоноска клана Драммонд",
+        "name": "Воительница клана Друммонд",
         "id": 1,
         "deck": "skellige",
         "row": "close",
@@ -2105,7 +2105,7 @@ var default_cards = {
         "quote": "Они разобьются о наши щиты, как волны о скалистый берег."
     },
     "sk_shield_maiden_2": {
-        "name": "Девка-щитоноска клана Драммонд",
+        "name": "Воительница клана Друммонд",
         "id": 2,
         "deck": "skellige",
         "row": "close",
@@ -2117,7 +2117,7 @@ var default_cards = {
         "quote": "Они разобьются о наши щиты, как волны о скалистый берег."
     },
     "sk_shield_maiden_3": {
-        "name": "Девка-щитоноска клана Драммонд",
+        "name": "Воительница клана Друммонд",
         "id": 3,
         "deck": "skellige",
         "row": "close",
@@ -2129,7 +2129,7 @@ var default_cards = {
         "quote": "Они разобьются о наши щиты, как волны о скалистый берег."
     },
     "sk_heymaey": {
-        "name": "Скальд клана Хеймаэй",
+        "name": "Скальд клана Хэймэй",
         "deck": "skellige",
         "row": "close",
         "strength": "4",
@@ -2139,7 +2139,7 @@ var default_cards = {
         "quote": "Деяния клана Хеймаэй войдут в историю."
     },
     "sk_tordarroch": {
-        "name": "Бронник клана Тордаррох",
+        "name": "Кузнец клана Тордаррох",
         "deck": "skellige",
         "row": "close",
         "strength": "4",
@@ -2205,7 +2205,7 @@ var default_cards = {
         "quote": "Услышьте же сказание о героических деяниях клана ан Крайт."
     },
     "sk_ermion": {
-        "name": "Эрмион",
+        "name": "Мышовур",
         "deck": "skellige",
         "row": "ranged",
         "strength": "8",
@@ -2215,7 +2215,7 @@ var default_cards = {
         "quote": "Лишь невежды отрицают важность мифов."
     },
     "sk_hemdall": {
-        "name": "Хемдалль",
+        "name": "Хеймдалль",
         "deck": "skellige",
         "row": "close",
         "strength": "11",
@@ -2225,7 +2225,7 @@ var default_cards = {
         "quote": "Когда настанет время Белого Хлада, Хемдалль протрубит боевой клич."
     },
     "sk_hjalmar": {
-        "name": "Хьяльмар",
+        "name": "Хьялмар",
         "deck": "skellige",
         "row": "ranged",
         "strength": "10",
@@ -2268,7 +2268,7 @@ var default_cards = {
         "quote": "Уйти от них? В водах Скеллиге? Удачи."
     },
     "sk_madman_lugos": {
-        "name": "Люгос Безумный",
+        "name": "Лугос Безумный",
         "deck": "skellige",
         "row": "close",
         "strength": "6",
@@ -2278,7 +2278,7 @@ var default_cards = {
         "quote": "ВААААААААГХ!!!"
     },
     "spe_mardroeme": {
-        "name": "Мардрэм",
+        "name": "Мардрём",
         "deck": "special skellige",
         "row": "",
         "strength": "",
@@ -2298,7 +2298,7 @@ var default_cards = {
         "quote": "Многие пытались победить Олафа. Но вы не услышите об этом от них — они мертвы."
     },
     "spe_storm": {
-        "name": "Шторм Скеллиге",
+        "name": "Шторм со Скеллиг",
         "deck": "weather realms skellige",
         "row": "",
         "strength": "",
@@ -2308,7 +2308,7 @@ var default_cards = {
         "quote": "Это не обычный шторм. Это гнев богов."
     },
     "sk_svanrige": {
-        "name": "Сваньриге",
+        "name": "Сванриге",
         "deck": "skellige",
         "row": "close",
         "strength": "4",
@@ -2318,7 +2318,7 @@ var default_cards = {
         "quote": "Император тоже поначалу считал его случайным королём."
     },
     "sk_vildkaarl": {
-        "name": "Вильдкаарл (Оборотень)",
+        "name": "Обратившийся Вильдкарл",
         "deck": "skellige",
         "row": "close",
         "strength": "14",
@@ -2328,7 +2328,7 @@ var default_cards = {
         "quote": "Видел их однажды в бою... и одного раза хватило."
     },
     "sk_young_vildkaarl": {
-        "name": "Молодой вильдкаарл (Оборотень)",
+        "name": "Обратившийся молодой Вильдкарл",
         "id": 1,
         "deck": "skellige",
         "row": "ranged",
@@ -2350,7 +2350,7 @@ var default_cards = {
         "quote": "Ха-а-а-ргх! За мной, если яйца есть!"
     },
     "sk_war_longship_1": {
-        "name": "Боевой драккар",
+        "name": "Военный драккар",
         "id": 1,
         "deck": "skellige",
         "row": "siege",
@@ -2362,7 +2362,7 @@ var default_cards = {
         "quote": "Говорят, сердце Хемдалля радуется всякий раз, когда драккары выходят в набег."
     },
     "sk_war_longship_2": {
-        "name": "Боевой драккар",
+        "name": "Военный драккар",
         "id": 2,
         "deck": "skellige",
         "row": "siege",
@@ -2374,7 +2374,7 @@ var default_cards = {
         "quote": "Говорят, сердце Хемдалля радуется всякий раз, когда драккары выходят в набег."
     },
     "sk_young_berserker": {
-        "name": "Юный берсерк",
+        "name": "Молодой берсерк",
         "deck": "skellige",
         "row": "ranged",
         "strength": "2",
@@ -2428,7 +2428,7 @@ var ext_nr_cards = {
         "quote": "Как любит говорить король Фольтест, важен не размер, а то, справляется ли он с работой."
     },
     "nr_temerian_soldier_1": {
-        "name": "Темерский пехотинец",
+        "name": "Темерская пехота",
         "id": 1,
         "deck": "realms",
         "row": "close",
@@ -2440,7 +2440,7 @@ var ext_nr_cards = {
         "quote": "Темерия! Боже, храни тебя! И порази врагов ужасной карой, во веки веков!"
     },
     "nr_temerian_soldier_2": {
-        "name": "Темерский пехотинец",
+        "name": "Темерская пехота",
         "id": 2,
         "deck": "realms",
         "row": "close",
@@ -2452,7 +2452,7 @@ var ext_nr_cards = {
         "quote": "Темерия! Боже, храни тебя! И порази врагов ужасной карой, во веки веков!"
     },
     "nr_temerian_soldier_3": {
-        "name": "Темерский пехотинец",
+        "name": "Темерская пехота",
         "id": 3,
         "deck": "realms",
         "row": "close",
@@ -2484,14 +2484,14 @@ var ext_nr_cards = {
         "quote": "Не о такой карьере он мечтал, когда говорил мамочке, что хочет быть музыкантом."
     },
     "nr_stripes_scout": {
-        "name": "Разведчик «Голубых Полосок»",
+        "name": "Разведчик Синих Полосок",
         "deck": "realms",
         "row": "close",
         "strength": "5",
         "ability": "spy",
         "filename": "stripes_scout",
         "count": "1",
-        "quote": "У «Голубых Полосок» и Скоя'таэлей есть одно общее качество — ими движет ненависть."
+        "quote": "У «Синих полосок» и Скоя'таэлей есть одно общее качество — ими движет ненависть."
     },
     "nr_tridam_infantry": {
         "name": "Тридамская пехота",
@@ -2514,7 +2514,7 @@ var ext_nr_cards = {
         "quote": "Что натворила эта ведьма?!"
     },
     "nr_kaedweni_siege_support_1": {
-        "name": "Кедвенинское осадное подкрепление",
+        "name": "Каэдвенское осадное подкрепление",
         "deck": "realms",
         "row": "siege",
         "strength": "2",
@@ -2524,7 +2524,7 @@ var ext_nr_cards = {
         "quote": "Я никогда не ошибаюсь дважды."
     },
     "nr_kaedweni_siege_support_2": {
-        "name": "Кедвенинское осадное подкрепление",
+        "name": "Каэдвенское осадное подкрепление",
         "deck": "realms",
         "row": "siege",
         "strength": "2",
@@ -2544,7 +2544,7 @@ var ext_nr_cards = {
         "quote": "Король Хенсельт не выглядел вором, но, при всём уважении, именно им и был."
     },
     "nr_kaedweni_reinforcement": {
-        "name": "Кедвенинское подкрепление",
+        "name": "Каэдвенское подкрепление",
         "deck": "realms",
         "row": "ranged",
         "strength": "3",
@@ -2602,7 +2602,7 @@ var ext_nr_cards = {
         "quote": "Чувствуешь? Земля дрожит каждый раз, когда Большая Берта пускает камень."
     },
     "nr_ban_ard_tutor": {
-        "name": "Наставник из Бан Арда",
+        "name": "Учитель из Бан Арда",
         "deck": "realms",
         "row": "ranged",
         "strength": "10",
@@ -2622,17 +2622,17 @@ var ext_nr_cards = {
         "quote": "Суть войны в победе, а не в упорстве."
     },
     "nr_kaedweni_knight": {
-        "name": "Кедвенинский рыцарь",
+        "name": "Каэдвенский рыцарь",
         "deck": "realms",
         "row": "close",
         "strength": "7",
         "ability": "",
         "filename": "kaedweni_knight",
         "count": "1",
-        "quote": "Не каждый в армии Кедвена поддерживает политику своего короля..."
+        "quote": "Не каждый в армии Каэдвена поддерживает политику своего короля..."
     },
     "nr_dun_banner_heavy_cavalry_1": {
-        "name": "Тяжёлая кавалерия хоругви Дун",
+        "name": "Тяжёлая кавалерия бурой хоругви",
         "deck": "realms",
         "row": "ranged",
         "strength": "7",
@@ -2642,7 +2642,7 @@ var ext_nr_cards = {
         "quote": "Всегда интересовался... как, чёрт возьми, эти парни справляют нужду...?"
     },
     "nr_dun_banner_heavy_cavalry_2": {
-        "name": "Тяжёлая кавалерия хоругви Дун",
+        "name": "Тяжёлая кавалерия бурой хоругви",
         "deck": "realms",
         "row": "ranged",
         "strength": "7",
@@ -2662,7 +2662,7 @@ var ext_nr_cards = {
         "quote": "Пьянка без Одрина — всё равно что гребля без весла."
     },
     "nr_seltkirk": {
-        "name": "Сельткирк из Гулеты",
+        "name": "Зельткирк из Гулеты ",
         "deck": "realms",
         "row": "close",
         "strength": "10",
@@ -2672,7 +2672,7 @@ var ext_nr_cards = {
         "quote": "Сельткирк из Гулеты был чемпионом Демавенда, известным как Непобедимый Белый Рыцарь."
     },
     "nr_kaedweni_sergeant": {
-        "name": "Кедвенинский сержант",
+        "name": "Каэдвенский сержант",
         "deck": "realms",
         "row": "siege",
         "strength": "5",
@@ -2748,7 +2748,7 @@ var ext_nr_cards = {
         "quote": "Я подниму Цинтру из пепла, какой бы высокой ни была цена."
     },
     "nr_cintrian_royal_guard": {
-        "name": "Королевский гвардеец Цинтры",
+        "name": "Цинтрианская королевская гвардия",
         "deck": "realms",
         "row": "close",
         "strength": "5",
@@ -2788,7 +2788,7 @@ var ext_nr_cards = {
         "quote": "Битва при Цинтре, которую нордлинги называют Резнёй в Цинтре из-за жестоких действий нильфгаардской армии."
     },
     "nr_eist_tuirseach": {
-        "name": "Эйст Турсеах",
+        "name": "Эйст Тиршах",
         "id": 4,
         "deck": "realms",
         "row": "close",
@@ -2846,7 +2846,7 @@ var ext_nr_cards = {
         "quote": "По ком звонит колокол?"
     },
     "nr_roegner": {
-        "name": "Рёгнер де Сальм",
+        "name": "Рёгнер из Эббинга",
         "deck": "realms",
         "row": "close",
         "strength": "6",
@@ -2958,7 +2958,7 @@ var ext_nr_cards = {
         "quote": "Ты хочешь войны? Что ж, ты её получишь! За Лирию и Ривию! За Север!"
     },
     "nr_prince_anseis": {
-        "name": "Принц Ансейс",
+        "name": "Принц Анси",
         "deck": "realms",
         "row": "close",
         "strength": "10",
@@ -2980,7 +2980,7 @@ var ext_nr_cards = {
         "quote": "О, какая умная девочка. Слишком умная."
     },
     "nr_nastrog_junghans": {
-        "name": "Дивизия Настрога: Юнгханс",
+        "name": "Дивизия Настрога: Йунгханс",
         "id": 1,
         "deck": "realms",
         "row": "close",
@@ -2989,7 +2989,7 @@ var ext_nr_cards = {
         "filename": "nastrog_junghans",
         "count": "1",
         "target": "nastrog_division",
-        "quote": "Юнгханс, лесничий, читает следы как книгу."
+        "quote": "Йунгханс, лесничий, читает следы как книгу."
     },
     "nr_nastrog_brick": {
         "name": "Дивизия Настрога: Брик",
@@ -3016,7 +3016,7 @@ var ext_nr_cards = {
         "quote": "Свидетелей нет. Но мы знаем, что случилось."
     },
     "nr_letande_lavet": {
-        "name": "Летанде Лаве",
+        "name": "Летанде Авест",
         "deck": "realms",
         "row": "close",
         "strength": "7",
@@ -3038,7 +3038,7 @@ var ext_nr_cards = {
         "quote": "Геральт думал, что некрасивых женщин не бывает, но в караулке Керака ему пришлось пересмотреть это мнение."
     },
     "nr_rainfarn": {
-        "name": "Рейнфарн из Аттре",
+        "name": "Раинфарн из Аттре",
         "deck": "realms",
         "row": "close",
         "strength": "5",
@@ -3088,7 +3088,7 @@ var ext_nr_cards = {
         "quote": "Боже, храни королеву!"
     },
     "nr_poor_infantry_4": {
-        "name": "Дерьмовая пехота",
+        "name": "Гребаная пехтура",
         "id": 4,
         "deck": "realms",
         "row": "close",
@@ -3100,7 +3100,7 @@ var ext_nr_cards = {
         "quote": "Я ветеран войны!... не подадите грошик?"
     },
     "nr_poor_infantry_5": {
-        "name": "Дерьмовая пехота",
+        "name": "Гребаная пехтура",
         "id": 5,
         "deck": "realms",
         "row": "close",
@@ -3112,7 +3112,7 @@ var ext_nr_cards = {
         "quote": "Я ветеран войны!... не подадите грошик?"
     },
     "nr_poor_infantry_6": {
-        "name": "Дерьмовая пехота",
+        "name": "Гребаная пехтура",
         "id": 6,
         "deck": "realms",
         "row": "close",
@@ -3124,7 +3124,7 @@ var ext_nr_cards = {
         "quote": "Я ветеран войны!... не подадите грошик?"
     },
     "nr_dun_banner_light_cavalry": {
-        "name": "Лёгкая кавалерия хоругви Дун",
+        "name": "Лёгкая кавалерия Бурой Хоругви",
         "deck": "realms",
         "row": "close",
         "strength": "4",
@@ -3144,7 +3144,7 @@ var ext_nr_cards = {
         "quote": "Она думала, что служба в дипломатическом корпусе будет тихой работой за столом. Её мозолистые ноги сильно ошибались."
     },
     "nr_freixenet": {
-        "name": "Фрейшенет",
+        "name": "Фрейксенет",
         "deck": "realms",
         "row": "ranged",
         "strength": "6",
@@ -3174,7 +3174,7 @@ var ext_nr_cards = {
         "quote": "«Во-первых, пусть Вальдо Маркс, трубадур из Сидариса, умрёт от апоплексии как можно скорее». — Лютик"
     },
     "nr_mousesack": {
-        "name": "Мышелов",
+        "name": "Мышовур - Друид",
         "deck": "realms",
         "row": "ranged",
         "strength": "5",
@@ -3224,7 +3224,7 @@ var ext_nr_cards = {
         "quote": "Каждое желание адепток исполняется — в Аретузе они живут как принцессы."
     },
     "nr_blue_stripes_skirmisher_1": {
-        "name": "Застрельщик «Голубых Полосок»",
+        "name": "Застрельщик Синих Полосок",
         "id": 1,
         "deck": "realms",
         "row": "ranged",
@@ -3236,7 +3236,7 @@ var ext_nr_cards = {
         "quote": "В смысле «мы окружены»? Тьфу! Мне этих псов даже жаль."
     },
     "nr_blue_stripes_skirmisher_2": {
-        "name": "Застрельщик «Голубых Полосок»",
+        "name": "Застрельщик Синих полосок",
         "id": 2,
         "deck": "realms",
         "row": "ranged",
@@ -3248,7 +3248,7 @@ var ext_nr_cards = {
         "quote": "В смысле «мы окружены»? Тьфу! Мне этих псов даже жаль."
     },
     "nr_blue_stripes_skirmisher_3": {
-        "name": "Застрельщик «Голубых Полосок»",
+        "name": "Застрельщик Синих полосок",
         "id": 3,
         "deck": "realms",
         "row": "ranged",
@@ -3260,7 +3260,7 @@ var ext_nr_cards = {
         "quote": "В смысле «мы окружены»? Тьфу! Мне этих псов даже жаль."
     },
     "nr_ethain_cidaris": {
-        "name": "Этэйн из Сидариса",
+        "name": "Этайн из Цидариса",
         "deck": "realms",
         "row": "siege",
         "strength": "10",
